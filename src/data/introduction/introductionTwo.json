@@ -1,22 +1,29 @@
 [
   {
-    "name": "Биоген Бранд",
+    "name": "Арьс арчилгаа",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
     "videoSrc": "https://www.youtube.com/embed/Ce5iQiy0D9I"
   },
   {
-    "name": "Батга хэрхэн үүсдэг вэ?",
+    "name": "Үс арчилгаа",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
     "videoSrc": "https://www.youtube.com/embed/syaVe-i490o"
   },
   {
-    "name": "Уна",
+    "name": "Бие арчилгаа",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
     "videoSrc": "https://www.youtube.com/embed/lX19C-yqRKQ"
   },
   {
-    "name": "Алое",
+    "name": "Мойл органик",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
+    "videoSrc": "https://www.youtube.com/embed/mBdldkUCft8"
+  },
+  {
+    "name": "Мойл спа",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
     "videoSrc": "https://www.youtube.com/embed/mBdldkUCft8"
   }
+  
+
 ]
