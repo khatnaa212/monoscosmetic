@@ -1,0 +1,394 @@
+[
+  {
+    "id": "1",
+    "category": "БИОГЕН",
+    "name": "Үрчлээний эсрэг серум",
+    "rate": 4,
+    "price": 32800,
+    "brand": "БИОГЕН",
+    "code": "PM 01",
+    "point": 30,
+    "quantity": 30,
+    "variation": [
+      {
+        "color": "red",
+        "colorCode": "#8B0000",
+        "image": "/assets/images/product/3.png"
+      },
+      {
+        "color": "blue",
+        "colorCode": "#4169E1",
+        "image": "/assets/images/product/4.png"
+      }
+    ],
+    "thumbImage": [
+      "/assets/images/product/1.png",
+      "/assets/images/product/2.png"
+    ],
+    "images": [
+      "/assets/images/product/1.png",
+      "/assets/images/product/2.png",
+      "/assets/images/product/3.png",
+      "/assets/images/product/4.png"
+    ],
+    "description": "Үрчлээний эсрэг үйлчилгээтэй өдөр болон шөнийн тосны доор түрхэх серум нь гүн үрчлээг багасган, арьсыг мэдэгдэхүйц чангаруулж хөгшрөлтийн эсрэг эрчимжүүлсэн үйлчилгээтэй. Өглөө, оройд нүүрээ цэвэрлэсний дараа товших байдлаар нимгэн түрхэж хэрэглэнэ.",
+    "slug": "Үрчлээний-эсрэг-серум"
+  },
+  {
+    "id": "2",
+    "category": "БИОГЕН",
+    "name": "Үрчлээний эсрэг чийгшүүлэгч тос ",
+    "rate": 5,
+    "price": 28800,
+    "brand": "БИОГЕН",
+    "code": "PM 02",
+    "point": 28,
+    "quantity": 12,
+    "thumbImage": [
+      "/assets/images/product/2.png",
+      "/assets/images/product/3.png"
+    ],
+    "images": [
+      "/assets/images/product/2.png",
+      "/assets/images/product/3.png",
+      "/assets/images/product/4.png",
+      "/assets/images/product/5.png"
+    ],
+    "description": "Үрчлээг эрчимтэй тэнийлгэх онцгой  үйлчилгээтэй тос нь арьсыг  хүчилтөрөгчөөр хангаж, эсийн амьсгалах чадварыг нэмэгдүүлсэнээр арьсны өнгөц болон гүн үрчлээг тэнийлгэж, илүү өнгөлөг болгох гайхалтай үр дүнг үзүүлнэ. Өглөө, оройд нүүр болон хүзүүндээ жигд нимгэн тараан түрхэнэ. Энгэсэг, кремний дор суурь тосоор хэрэглэж болно.",
+    "slug": "Үрчлээний-эсрэг-чийгшүүлэгч-тос"
+  },
+  {
+    "id": "3",
+    "category": "БИОГЕН",
+    "name": "Үрчлээний эсрэг зовхины тос",
+    "rate": 4,
+    "price": 28800,
+    "brand": "БИОГЕН",
+    "code": "PM 01",
+    "point": 30,
+    "quantity": 3,
+    "variation": [
+      {
+        "color": "red",
+        "colorCode": "#8B0000",
+        "image": "/assets/images/product/5.png"
+      },
+      {
+        "color": "blue",
+        "colorCode": "#4169E1",
+        "image": "/assets/images/product/6.png"
+      }
+    ],
+    "thumbImage": [
+      "/assets/images/product/3.png",
+      "/assets/images/product/4.png"
+    ],
+    "images": [
+      "/assets/images/product/3.png",
+      "/assets/images/product/4.png",
+      "/assets/images/product/5.png",
+      "/assets/images/product/6.png"
+    ],
+    "description": "Нүд орчмын арьс илүү нимгэн, мэдрэмтгий байдаг тул хөгшрөлтийн шинж тэмдэг хамгийн түрүүнд илэрдэг. Энэхүү тос нь коллагений нийлэгжилтийг сайжруулан доод зовхины хаван болон бараан хүрээг бууруулах үйлчилгээтэйгээс гадна хялгасан үрчлээ үүсэхээс сэргийлнэ. Өглөө, орой зовхины тосыг ядам хуруугаар хөнгөн товших байдлаар хэрэглэнэ.",
+    "slug": "Үрчлээний-эсрэг-зовхины-тос"
+  },
+  {
+    "id": "4",
+    "category": "БИОГЕН",
+    "name": "Үрчлээний эсрэг гарын тос",
+    "rate": 5,
+    "price": 6800,
+    "brand": "БИОГЕН",
+    "code": "PM 02",
+    "point": 28,
+    "quantity": 12,
+    "thumbImage": [
+      "/assets/images/product/4.png",
+      "/assets/images/product/5.png"
+    ],
+    "images": [
+      "/assets/images/product/4.png",
+      "/assets/images/product/5.png",
+      "/assets/images/product/6.png",
+      "/assets/images/product/7.png"
+    ],
+    "description": "Та нүүрэндээ үрчлээ тогтон хөгшрөх вий гэж санаа зовдогтой адил гарын арьсаа мөн арчлах шаардлагатай. Биоген гарын тос нь гарын арьсан дээр үүссэн үрчлээг арилгаж нарнаас хамгаалан арьсанд гүн тэжээл өгч арьсны өнгийг сэргээн хөгширхөөс сэргийлэх онцгой үйлчилгээтэй юм. Гараа угаасны дараа тосноос тохирох хэмжээтэй авч иллэг хийх маягаар түрхэж өдөр бүр хэрэглэнэ.",
+    "slug": "Үрчлээний-эсрэг-гарын-тос"
+  },
+  {
+    "id": "5",
+    "category": "БИОМОН",
+    "name": "Нунтаг энгэсэг SPF 50/PA+++",
+    "rate": 5,
+    "price": 34500,
+    "brand": "БИОМОН",
+    "code": "PM 02",
+    "point": 20,
+    "quantity": 12,
+    "thumbImage": [
+      "/assets/images/product/5.png",
+      "/assets/images/product/6.png"
+    ],
+    "images": [
+      "/assets/images/product/5.png",
+      "/assets/images/product/6.png",
+      "/assets/images/product/7.png",
+      "/assets/images/product/8.png"
+    ],
+    "description": "Нунтаг энгэсэг нь нүүр будалтын өө сэв, илүүдэл тос, нүхжилт, хялгасан үрчлээг бүрэн дарж арьсыг өөгүй жигд болгох, нүүрний будгийн тогтоцыг удаах барих, арьсыг гадны нөлөөнөөс хамгаалах үйлчилгээтэй. Найрлагандаа А,Е аминдэм агуулсан, чийглэг бүтэцтэй энгэсгийг түрхсэнээр арьс илүү өнгөлөг, толигор чийглэг харагдуулна.",
+    "slug": "Нунтаг-энгэсэг-SPF"
+  },
+  {
+    "id": "6",
+    "category": "БИОДЕРМ",
+    "name": "Тос шингээгч цаас ",
+    "rate": 5,
+    "price": 4500,
+    "brand": "БИОДЕРМ",
+    "code": "PM 02",
+    "point": 28,
+    "quantity": 12,
+    "thumbImage": [
+      "/assets/images/product/7.png",
+      "/assets/images/product/8.png"
+    ],
+    "images": [
+      "/assets/images/product/6.png",
+      "/assets/images/product/7.png",
+      "/assets/images/product/8.png",
+      "/assets/images/product/9.png"
+    ],
+    "description": "Нүүрнээс ялгарсан илүүдэл тослогыг шингээн авч нүүрний арьс гялайн будаг урсахаас сэргийлнэ. Мөн арьсны тослогийн хэмжээг багасгаж, тэнцвэртэй байлгахад тусална. Хүссэн үедээ илүүдэл тослог болон хөлсийг шингээн зөөлөн дарж авна. Авч явахад тохиромжтой савалгаатай. ",
+    "slug": "Тос-шингээгч-цаас "
+  },
+  {
+    "id": "7",
+    "category": "БИОДЕРМ",
+    "name": "Батга хатаагч гель",
+    "rate": 4,
+    "price": 10900,
+    "brand": "БИОДЕРМ",
+    "code": "PM 02",
+    "point": 10,
+    "quantity": 12,
+    "thumbImage": [
+      "/assets/images/product/8.png",
+      "/assets/images/product/9.png"
+    ],
+    "images": [
+      "/assets/images/product/8.png",
+      "/assets/images/product/9.png",
+      "/assets/images/product/10.png",
+      "/assets/images/product/11.png"
+    ],
+    "description": "Батгыг хурдан хугацаанд үр дүнтэй арилгана. Арьсны хэвийн бичил орчныг сэргээж, нөхөн төлжүүлнэ. Өглөө оройд нүүрээ цэвэрлэсний дараа хатаагч гелийг үрэвсэлтэй батгатай хэсэгт цэгэн байдлаар түрхэнэ.",
+    "slug": "Батга-хатаагч-гель"
+  },
+  {
+    "id": "8",
+    "category": "БИОМОН",
+    "name": "Хөлийн цацлага",
+    "rate": 4,
+    "price": 10900,
+    "brand": "БИОМОН",
+    "code": "PM 03",
+    "point": 30,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/product/9.png",
+      "/assets/images/product/10.png"
+    ],
+    "images": [
+      "/assets/images/product/9.png",
+      "/assets/images/product/10.png",
+      "/assets/images/product/11.png",
+      "/assets/images/product/12.png"
+    ],
+    "description": "Илүүдэл чийгийг шингээн авах, хатаах үйлчилгээтэй. Хөлийн булчирхайн шүүрэл ялгаралтыг багасгах буюу шивэр арилгах, дарах зорилгоор хөлийн салст, хурууны завсраар түрхэж хэрэглэнэ. Хөлний арьс, хурууны салаагаар түрхэж хэрэглэх ба хөлөө угаасны дараа түрхэж хэрэглэх ба хөлөө угаасны дараа түрхэж хэрэглэвэл илүү үр дүнтэй.",
+    "slug": "Хөлийн-цацлага"
+  },
+  {
+    "id": "9",
+    "category": "МАРАЛ",
+    "name": "Тэжээлийн тос",
+    "rate": 4,
+    "price": 6200,
+    "brand": "МАРАЛ",
+    "code": "PM 03",
+    "point": 50,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/product/10.png",
+      "/assets/images/product/11.png"
+    ],
+    "images": [
+      "/assets/images/product/10.png",
+      "/assets/images/product/11.png",
+      "/assets/images/product/12.png",
+      "/assets/images/product/13.png"
+    ],
+    "description": "Марал  тэжээлийн тосыг оройд нүүрээ бүрэн цэвэрлэж дууссаны дараа арьсандаа тэжээл өгөх зорилгоор хэрэглэнэ. Марал тэжээлийн тос нь Витамин C,E Ланолин, Арбутин агуулсан тул арьсны гүнд тэжээл өгч, бодисийн солилцоог идэвхижүүлэн арьсыг эрүүл толигор болгох үйлчилгээтэй.",
+    "slug": "Тэжээлийн-тос"
+  },
+  {
+    "id": "10",
+    "category": "БИОМОН",
+    "name": "Хонины сүүлтэй гарын тос",
+    "rate": 4,
+    "price": 6800,
+    "brand": "БИОМОН",
+    "code": "PM 03",
+    "point": 50,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/product/11.png",
+      "/assets/images/product/12.png"
+    ],
+    "images": [
+      "/assets/images/product/10.png",
+      "/assets/images/product/11.png",
+      "/assets/images/product/12.png",
+      "/assets/images/product/13.png"
+    ],
+    "description": "Хонины сүүлтэй тос нь энгийн гарын тосноос илүү арьсанд гүн чийгшил өгч, зөөлрүүлэн тэжээлээр хангах онцгой үйлчилгээтэй. Мөн арьсыг хуурайшиж, хагарч гэмтэхээс хамгаалах ба хэт хуурай хагарамтгай арьсанд илүү тохиромжтой бүтээгдэхүүн",
+    "slug": "Хонины-сүүлтэй-гарын-тос"
+  },
+  {
+    "id": "11",
+    "category": "АЛОЕ",
+    "name": "Угаагч-гель",
+    "rate": 4,
+    "price": 9800,
+    "brand": "АЛОЕ",
+    "code": "PM 03",
+    "point": 120,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/product/12.png",
+      "/assets/images/product/13.png"
+    ],
+    "images": [
+      "/assets/images/product/12.png",
+      "/assets/images/product/13.png",
+      "/assets/images/product/14.png",
+      "/assets/images/product/15.png"
+    ],
+    "description": "Арьсны бохирдолыг гүнээс нь цэвэрлэнэ.Арьсанд агуулагдаж буй чийгшлийн түвшинг хэвийн хэмжээнд хадгална. Арьсны тослогийг тэнцвэржүүлж, арьсыг эрүүл зөөлөн болгоно. ",
+    "slug": "Угаагч-гель"
+  },
+  {
+    "id": "12",
+    "category": "САНИТАС",
+    "name": "хүүхдийн гарын шингэн саван",
+    "rate": 4,
+    "price": 5150,
+    "brand": "САНИТАС",
+    "code": "PM 03",
+    "point": 250,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/product/13.png",
+      "/assets/images/product/14.png"
+    ],
+    "images": [
+      "/assets/images/product/13.png",
+      "/assets/images/product/14.png",
+      "/assets/images/product/1.png",
+      "/assets/images/product/2.png"
+    ],
+    "description": "Зөөлөн бүтэцтэй. Гүн чийгшүүлэгчтэй. Витамин C,E. Бактерийг 99.9% устгана. Санитас бүтээгдэхүүний худалдан авалт тутмын 50₮ хүүхдийн зам тээврийн ослоос урьдчилан сэргийлэх сайн үйлсэд зориулдаг.",
+    "slug": "хүүхдийн-гарын-шингэн-саван"
+  },
+  {
+    "id": "13",
+    "category": "set",
+    "name": "Metallic Cap Cosmetic",
+    "rate": 5,
+    "price": 44,
+    "brand": "kenzo",
+    "code": "PM 03",
+    "point": 17,
+    "quantity": 1,
+    "thumbImage": [
+      "/assets/images/product/14.png",
+      "/assets/images/product/15.png"
+    ],
+    "images": [
+      "/assets/images/product/14.png",
+      "/assets/images/product/15.png",
+      "/assets/images/product/16.png",
+      "/assets/images/product/17.png"
+    ],
+    "description": "",
+    "slug": "metallic-cap-cosmetic-13"
+  },
+  {
+    "id": "14",
+    "category": "set",
+    "name": "Photo Match Concealer",
+    "rate": 5,
+    "price": 39,
+    "brand": "gucci",
+    "code": "PM 03",
+    "point": 17,
+    "quantity": 1,
+    "thumbImage": [
+      "/assets/images/product/15.png",
+      "/assets/images/product/16.png"
+    ],
+    "images": [
+      "/assets/images/product/15.png",
+      "/assets/images/product/16.png",
+      "/assets/images/product/17.png",
+      "/assets/images/product/18.png"
+    ],
+    "description": "",
+    "slug": "photo-match-concealer-14"
+  },
+  {
+    "id": "15",
+    "category": "set",
+    "name": "Matte Mousse Foundation",
+    "rate": 5,
+    "price": 46,
+    "brand": "kenzo",
+    "code": "PM 03",
+    "point": 17,
+    "quantity": 1,
+    "thumbImage": [
+      "/assets/images/product/16.png",
+      "/assets/images/product/17.png"
+    ],
+    "images": [
+      "/assets/images/product/16.png",
+      "/assets/images/product/17.png",
+      "/assets/images/product/18.png",
+      "/assets/images/product/19.png"
+    ],
+    "description": "",
+    "slug": "matte-mousse-foundation-15"
+  },
+  {
+    "id": "16",
+    "category": "set",
+    "name": "White Sandal Beauty",
+    "rate": 5,
+    "price": 67,
+    "brand": "h&m",
+    "code": "PM 03",
+    "point": 17,
+    "quantity": 1,
+    "thumbImage": [
+      "/assets/images/product/17.png",
+      "/assets/images/product/18.png"
+    ],
+    "images": [
+      "/assets/images/product/17.png",
+      "/assets/images/product/18.png",
+      "/assets/images/product/19.png",
+      "/assets/images/product/20.png"
+    ],
+    "description": "",
+    "slug": "white-sandal-beauty-16"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Нүүр",
+    "to": "/homepages/homepage1"
+  },
+  { "title": "Үйлчилгээ", "to": "/other/services" },
+  { "title": "Тухай", "to": "/other/about" },
+  {
+    "title": "Дэлгүүр",
+    "to": "/shop/fullwidth-4col",
+
+    "subMenu": [
+      { "title": "Бүх бүтээгдэхүүнийг харах", "to": "/shop/list-sidebar" },
+      { "title": "Сагс", "to": "/shop/cart" },
+      { "title": "Тооцоо", "to": "/shop/checkout" },
+      { "title": "Хүслийн жагсаалт", "to": "/shop/wishlist" }
+    ]
+  },
+  { "title": "Блог", "to": "/blog" },
+  { "title": "Бидэнтэй холбогдох", "to": "/other/contact" }
+]

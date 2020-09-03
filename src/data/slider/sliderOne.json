@@ -1,0 +1,86 @@
+[
+  {
+    "title": { "main": "Inner beauty out" },
+    "subTitle": "bringing you",
+    "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "You feel good" },
+    "subTitle": "When you look good",
+    "image": "/assets/images/slider/SliderOne/emonos_banner.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Beauty salon" },
+    "subTitle": "We make best makeup",
+    "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Beauty salon" },
+    "subTitle": "We make best makeup",
+    "image": "/assets/images/slider/SliderOne/emonos_banner.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Beauty salon" },
+    "subTitle": "We make best makeup",
+    "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Beauty salon" },
+    "subTitle": "We make best makeup",
+    "image": "/assets/images/slider/SliderOne/emonos_banner.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "accountLinks": [
+    { "name": "Миний хаяг", "to": "#" },
+    { "name": "Хүслийн жагсаалт", "to": "/shop/wishlist" },
+    { "name": "Сагс", "to": "/shop/cart" },
+    { "name": "Дэлгүүр", "to": "/shop/fullwidth-4col" },
+    { "name": "Тооцоо хийх", "to": "/shop/checkout" }
+  ],
+  "informationLinks": [
+    { "name": "Бидний тухай", "to": "/other/about" },
+    { "name": "Кареер", "to": "/other/contact" },
+    { "name": "Хүргэлтийн мэдээлэл", "to": "/other/contact" }
+  ],
+  "creditLinks": [
+    { "name": "Privacy Policy", "to": "/other/contact" },
+    { "name": "Terms & Condition", "to": "/other/contact" },
+    { "name": "Site map", "to": "/other/contact" }
+  ]
+}
