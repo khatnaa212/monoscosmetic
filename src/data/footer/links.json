@@ -10,10 +10,5 @@
     { "name": "Бидний тухай", "to": "/other/about" },
     { "name": "Кареер", "to": "/other/contact" },
     { "name": "Хүргэлтийн мэдээлэл", "to": "/other/contact" }
-  ],
-  "creditLinks": [
-    { "name": "Privacy Policy", "to": "/other/contact" },
-    { "name": "Terms & Condition", "to": "/other/contact" },
-    { "name": "Site map", "to": "/other/contact" }
   ]
 }

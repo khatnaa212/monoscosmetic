@@ -12,14 +12,14 @@ export default function CTAOne() {
   return (
     <div
       className="cta -style-1"
-      style={{ backgroundImage: 'url("/assets/images/cta/CTAOne/1.png")' }}
+      style={{ backgroundImage: 'url("/assets/images/banner/banner1.jpg")' }}
     >
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 mx-auto">
             <div className="cta__form">
               <SectionTitleOne align="center" spaceBottom="1.875em">
-                Book Service
+              Бидэнтэй холбогдох 
               </SectionTitleOne>
               <form
                 onSubmit={handleSubmit(onSubmit)}
@@ -28,30 +28,30 @@ export default function CTAOne() {
                 <div className="input-validator">
                   <input
                     type="text"
-                    placeholder="Your name"
+                    placeholder="Нэр"
                     name="name"
                     ref={register({ required: true })}
                   />
                   {errors.name && (
                     <span className="input-error">
-                      Please provide a valid name
+                      Нэрээ оруулна уу
                     </span>
                   )}
                 </div>
                 <div className="input-validator">
                   <input
                     type="text"
-                    placeholder="Your phone"
+                    placeholder="Утасны дугаар"
                     name="phone"
                     ref={register({ required: true })}
                   />
                   {errors.phone && (
                     <span className="input-error">
-                      Please provide a valid phone number
+                      Утасны дугаараа оруулна уу
                     </span>
                   )}
                 </div>
-                <div className="input-validator">
+                {/* <div className="input-validator">
                   <select
                     name="service"
                     ref={register({ required: true })}
@@ -70,7 +70,7 @@ export default function CTAOne() {
                   {errors.service && (
                     <span className="input-error">Please choose a service</span>
                   )}
-                </div>
+                </div> */}
                 <div className="input-validator">
                   <select
                     name="date"
@@ -91,7 +91,7 @@ export default function CTAOne() {
                     <span className="input-error">Please choose a date</span>
                   )}
                 </div>
-                <button className="btn -light-red">Appoitment</button>
+                <button className="btn -light-red"> Илгээх</button>
               </form>
             </div>
           </div>

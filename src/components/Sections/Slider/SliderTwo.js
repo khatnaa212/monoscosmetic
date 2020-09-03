@@ -3,7 +3,7 @@ import { CSSTransition } from "react-transition-group";
 import classNames from "classnames";
 import Slider from "react-slick";
 
-import Button from "../../Control/Button";
+// import Button from "../../Control/Button";
 import { PrevArrow, NextArrow } from "../../Other/SliderArrow";
 
 export default function SliderTwo({ className, data, showArrows, showDots }) {
@@ -62,7 +62,7 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
                     />
                   </CSSTransition>
                 </div>
-                <div className="slider-content">
+                {/* <div className="slider-content">
                   {slide.subTitle && (
                     <div className="slider-animation-wrapper">
                       <CSSTransition
@@ -112,7 +112,7 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
                       </CSSTransition>
                     </div>
                   )}
-                  <div className="slider-animation-wrapper">
+                   <div className="slider-animation-wrapper">
                     <CSSTransition
                       in={sliderIndex === index && sliderReady}
                       timeout={2000}
@@ -127,8 +127,8 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
                         />
                       </div>
                     </CSSTransition>
-                  </div>
-                </div>
+                  </div> 
+                </div> */}
               </div>
             </div>
           ))}

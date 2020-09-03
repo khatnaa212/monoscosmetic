@@ -2,21 +2,17 @@
   {
     "iconClass": "fas fa-map-marker-alt",
     "title": "Хаяг",
-    "detail": "2168 S Archer Ave, Chicago, IL 60616, US"
+    "detail": "Mongolia, Ulaanbaatar Bayanzurkh District, Namyangju Street, 4th floor"
   },
   {
     "iconClass": "fas fa-phone-alt",
     "title": "Утас",
-    "detail": "+1 312-808-1999     |     +1 233-688-8999"
+    "detail": "(976)-77373737"
   },
   {
     "iconClass": "far fa-envelope",
     "title": "Email",
-    "detail": "Beatycosmetics@gmail.com"
-  },
-  {
-    "iconClass": "far fa-clock",
-    "title": "Ажлын цаг",
-    "detail": "Sun-Sat: 8.00am - 9.00.pm"
+    "detail": "cosmetic@monos.mn"
   }
+ 
 ]

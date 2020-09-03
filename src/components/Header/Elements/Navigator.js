@@ -53,7 +53,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/header/dropdown-menu-banner.png"
+                        "/assets/images/product/Biogen_zovhi.jpg"
                       }
                       alt="New product banner"
                     />

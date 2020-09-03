@@ -34,7 +34,7 @@ export default function MenuTwo({ container }) {
             </ul>
             <Link href={process.env.PUBLIC_URL + "/homepages/homepage1"}>
               <a className="menu__wrapper__logo">
-                <img src="/assets/images/logo.png" alt="Logo" />
+                <img src="/assets/images/coslogo.png" alt="Logo" />
               </a>
             </Link>
             <ul className="navigator_part -right">
