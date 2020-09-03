@@ -17,7 +17,7 @@ export default function TopNavOne({ container }) {
           <SocialIcons className="-white" />
           <div className="top-nav__wrapper__selectors">
             <Link href={process.env.PUBLIC_URL + "#"}>
-              <a className="top-nav__auth">Login/Register</a>
+              <a className="top-nav__auth">Нэвтрэх/Бүртгүүлэх</a>
             </Link>
           </div>
         </div>

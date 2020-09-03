@@ -1,22 +1,22 @@
 [
   {
-    "name": "Body treatment",
+    "name": "Биоген Бранд",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
-    "videoSrc": "https://www.youtube.com/embed/80e0QHPYRG4"
+    "videoSrc": "https://www.youtube.com/embed/Ce5iQiy0D9I"
   },
   {
-    "name": "Professinal makeup",
+    "name": "Батга хэрхэн үүсдэг вэ?",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
-    "videoSrc": "https://www.youtube.com/embed/xn7jfVWWSio"
+    "videoSrc": "https://www.youtube.com/embed/syaVe-i490o"
   },
   {
-    "name": "Maincure & pedicure",
+    "name": "Уна",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
-    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+    "videoSrc": "https://www.youtube.com/embed/lX19C-yqRKQ"
   },
   {
-    "name": "Hair cut & Coloring",
+    "name": "Алое",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
-    "videoSrc": "https://www.youtube.com/embed/hoPiGLf0ICA"
+    "videoSrc": "https://www.youtube.com/embed/mBdldkUCft8"
   }
 ]

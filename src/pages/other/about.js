@@ -12,10 +12,10 @@ import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
 
 export default function () {
   return (
-    <LayoutFour title="About us">
-      <Breadcrumb title="About us">
-        <BreadcrumbItem name="Home" />
-        <BreadcrumbItem name="About us" current />
+    <LayoutFour title="Бидний тухай">
+      <Breadcrumb title="Бидний тухай">
+        <BreadcrumbItem name="Нүүр" />
+        <BreadcrumbItem name="Бидний тухай" current />
       </Breadcrumb>
       <IntroductionOne data={introductionOneData} />
       <IntroductionTwo data={introductionTwoData} style={{ marginBottom: 0 }} />

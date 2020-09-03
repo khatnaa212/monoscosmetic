@@ -144,7 +144,7 @@ export default function () {
               <div className="cart__total">
                 <div className="row">
                   <div className="col-12 col-md-8">
-                    <div className="cart__total__discount">
+                    {/* <div className="cart__total__discount">
                       <p>Enter coupon code. It will be applied at checkout.</p>
                       <div className="input-validator">
                         <form onSubmit={handleSubmit(onSubmit)}>
@@ -162,7 +162,7 @@ export default function () {
                           </span>
                         )}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-12 col-md-4">
                     <div className="cart__total__content">

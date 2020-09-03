@@ -47,9 +47,7 @@ export default function FooterOne() {
                 <p>
                   Email: <span>{footerInfomation.email}</span>
                 </p>
-                <p>
-                  Ажлын цаг: <span>{footerInfomation.open}</span>
-                </p>
+                
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -84,15 +82,23 @@ export default function FooterOne() {
             </div>
             <div className="col-12 col-lg-4">
               <div className="footer__section -payment">
-                <h5 className="footer-title">Төлбөр төлөх аргачлал</h5>
+                <h5 className="footer-title"></h5>
                 <div className="payment-methods">
-                  <img
+                <iframe
+                className="contact-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9781655724018!2d106.89776604282635!3d47.91788240945654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc44e131a8a952b15!2zTW9ub3Mg0Y3QvNC40LnQvSDQsdOp06nQvdC40Lkg0YLTqdCy!5e0!3m2!1sen!2smn!4v1599116325115!5m2!1sen!2smn"
+                width="100%"
+                height="250"
+                frameBorder="0"
+                allowFullScreen
+              />
+                  {/* <img
                     src={
                       process.env.PUBLIC_URL +
                       "/assets/images/footer/payment.png"
                     }
                     alt="Payment methods"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -102,8 +108,8 @@ export default function FooterOne() {
       <div className="footer-one__footer">
         <div className="container">
           <div className="footer-one__footer__wrapper">
-            <p>© Copyright 2020 Beauty</p>
-            <ul>
+            <p> Монос косметик ХХК ©2020 ОН.</p>
+            {/* <ul>
               {footerLinks.creditLinks.map((link, index) => (
                 <li key={index}>
                   <Link href={link.to}>
@@ -111,7 +117,7 @@ export default function FooterOne() {
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

@@ -282,7 +282,7 @@ export default function () {
                           </tbody>
                         </table>
                       </div>
-                      <div className="checkout__total__price__payment">
+                      {/* <div className="checkout__total__price__payment">
                         <label className="checkbox-label" htmlFor="payment">
                           <input
                             type="checkbox"
@@ -303,7 +303,7 @@ export default function () {
                           />
                           PayPal
                         </label>
-                      </div>
+                      </div> */}
                     </div>
                     <button
                       className="btn -red"

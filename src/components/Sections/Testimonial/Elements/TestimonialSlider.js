@@ -99,7 +99,7 @@ export default function TestimonialSlider({
                     }}
                   >
                     <i className="far fa-angle-left"></i>
-                    Prev
+                    Өмнөх
                   </a>
                   <a
                     href={process.env.PUBLIC_URL + "#"}
@@ -108,7 +108,7 @@ export default function TestimonialSlider({
                       slider2.current.slickNext();
                     }}
                   >
-                    Next
+                    Дараах
                     <i className="far fa-angle-right"></i>
                   </a>
                 </div>

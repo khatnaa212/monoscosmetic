@@ -35,6 +35,15 @@ export default function InstagramTwo() {
       },
     ],
   };
+  const mystyle = {
+    // color: "white",
+    // backgroundColor: "DodgerBlue",
+    // padding: "10px",
+    // fontFamily: "Arial",
+    width: "70%",
+    paddingLeft: "50px",
+    height: '50%'
+  };
   return (
     <div className="instagram-two">
       <Slider {...settings}>
@@ -48,9 +57,10 @@ export default function InstagramTwo() {
               <img
                 src={
                   process.env.PUBLIC_URL +
-                  `/assets/images/instagram/InstagramTwo/${i + 1}.png`
+                  `/assets/images/parthner/${i + 1}.png`
                 }
                 alt="Instagram image"
+                style={mystyle}
               />
             </a>
           );

@@ -23,11 +23,11 @@ export default function IntroductionOne({ data }) {
             <div className="introduction-one__image">
               <div className="introduction-one__image__detail">
                 <img
-                  src="/assets/images/introduction/IntroductionOne/img1.png"
+                  src="/assets/images/product/biogen_hand1.png"
                   alt="background"
                 />
                 <img
-                  src="/assets/images/introduction/IntroductionOne/img2.png"
+                  src="/assets/images/product/Biogen_cream1.png"
                   alt="background"
                 />
               </div>
