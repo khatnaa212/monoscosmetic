@@ -2,7 +2,7 @@
   {
     "title": { "main": "Inner beauty out" },
     "subTitle": "bringing you",
-    "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
+    "image": "/assets/images/banner/sda.jpg",
     "btn": {
       "content": "Appointment",
       "color": "red"
@@ -16,7 +16,7 @@
   {
     "title": { "main": "You feel good" },
     "subTitle": "When you look good",
-    "image": "/assets/images/slider/SliderOne/emonos_banner.jpg",
+    "image": "/assets/images/banner/Biogen banner.jpg",
     "btn": {
       "content": "Appointment",
       "color": "red"
@@ -30,7 +30,7 @@
   {
     "title": { "main": "Beauty salon" },
     "subTitle": "We make best makeup",
-    "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
+    "image": "/assets/images/banner/biomon banner.jpg",
     "btn": {
       "content": "Appointment",
       "color": "red"
@@ -44,7 +44,7 @@
   {
     "title": { "main": "Beauty salon" },
     "subTitle": "We make best makeup",
-    "image": "/assets/images/slider/SliderOne/emonos_banner.jpg",
+    "image": "/assets/images/banner/biomon miccellar banner.jpg",
     "btn": {
       "content": "Appointment",
       "color": "red"
