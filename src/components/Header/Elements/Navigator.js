@@ -7,8 +7,29 @@ export default function Navigator({ disableSubmenu, className }) {
   function renderMenu() {
     return menuData.map((item, index) => {
       if (item.title === "Нүүр") {
+        // return (
+        //   <li className="relative" key={index}>
+        //     <Link href={process.env.PUBLIC_URL + item.to}>
+        //       <a>
+        //         {item.title}
+        //         <span className="dropable-icon">
+        //           <i className="fas fa-angle-down"></i>
+        //         </span>
+        //       </a>
+        //     </Link>
+        //     <ul className="dropdown-menu">
+        //         {item.subMenu.map((i, index)=>(
+        //             <li key={index}>
+        //               <Link href={i.to}>
+        //                 <a>{i.title}</a>
+        //               </Link>
+        //             </li>
+        //         ))}
+        //     </ul>
+        //   </li>
+        // );
       }
-      if (item.title === "Дэлгүүр") {
+      if (item.title === "Бүтээгдэхүүн") {
         return (
           <li key={index}>
             <Link href={process.env.PUBLIC_URL + item.to}>
@@ -21,25 +42,7 @@ export default function Navigator({ disableSubmenu, className }) {
             </Link>
             <ul className="dropdown-menu -wide">
               <ul className="dropdown-menu__col">
-                {item.subMenu.slice(0, 4).map((i, index) => (
-                  <li key={index}>
-                    <Link href={process.env.PUBLIC_URL + i.to}>
-                      <a>{i.title}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <ul className="dropdown-menu__col">
-                {item.subMenu.slice(4, 8).map((i, index) => (
-                  <li key={index}>
-                    <Link href={process.env.PUBLIC_URL + i.to}>
-                      <a>{i.title}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <ul className="dropdown-menu__col">
-                {item.subMenu.slice(8).map((i, index) => (
+                {item.subMenu.slice(0, 6).map((i, index) => (
                   <li key={index}>
                     <Link href={process.env.PUBLIC_URL + i.to}>
                       <a>{i.title}</a>

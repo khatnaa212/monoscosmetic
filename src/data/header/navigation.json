@@ -1,21 +1,29 @@
 [
   {
     "title": "Нүүр",
-    "to": "/homepages/homepage1"
+    "to": "/homepages/homepage1",
+
+    "subMenu":[
+      { "title": "Арьс арчилгаа", "to": "/shop/shop/list-sidebar"},
+      { "title": "Үс арчилгаа", "to": "shop/shop/list-sidebar" }
+      
+    ]
   },
-  { "title": "Үйлчилгээ", "to": "/other/services" },
-  { "title": "Тухай", "to": "/other/about" },
+  { "title": "Компаны тухай", "to": "/other/services" },
+  { "title": "Блог", "to": "/blog" },
   {
-    "title": "Дэлгүүр",
+    "title": "Бүтээгдэхүүн",
     "to": "/shop/fullwidth-4col",
 
     "subMenu": [
-      { "title": "Бүх бүтээгдэхүүнийг харах", "to": "/shop/list-sidebar" },
-      { "title": "Сагс", "to": "/shop/cart" },
-      { "title": "Тооцоо", "to": "/shop/checkout" },
-      { "title": "Хүслийн жагсаалт", "to": "/shop/wishlist" }
+      { "title": "Арьс арчилгаа", "to": "/shop/list-sidebar" },
+      { "title": "Үс арчилгаа", "to": "/shop/list-sidebar" },
+      { "title": "Бие арчилгаа", "to": "/shop/list-sidebar" },
+      { "title": "Хүүхэд", "to": "/shop/list-sidebar" },
+      { "title": "Мойл органик", "to": "/shop/list-sidebar" },
+      { "title": "Мойл спа", "to": "/shop/list-sidebar" }
     ]
   },
-  { "title": "Блог", "to": "/blog" },
-  { "title": "Бидэнтэй холбогдох", "to": "/other/contact" }
+  { "title": "Хүний нөөц", "to": "/other/contact" },
+  { "title": "Холбоо барих", "to": "/other/contact" }
 ]

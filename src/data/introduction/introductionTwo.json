@@ -1,28 +1,28 @@
 [
   {
-    "name": "Арьс арчилгаа",
+    "name": "Biogen",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
     "videoSrc": "https://www.youtube.com/embed/Ce5iQiy0D9I"
   },
   {
-    "name": "Үс арчилгаа",
+    "name": "Aloe",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
-    "videoSrc": "https://www.youtube.com/embed/syaVe-i490o"
+    "videoSrc": "https://www.youtube.com/embed/GZ_GKmSwSF8"
   },
   {
-    "name": "Бие арчилгаа",
+    "name": "Биомон кидс",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
-    "videoSrc": "https://www.youtube.com/embed/lX19C-yqRKQ"
+    "videoSrc": "https://www.youtube.com/embed/jTthOgd3VLo"
   },
   {
-    "name": "Мойл органик",
+    "name": "Биомон шампунь",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
-    "videoSrc": "https://www.youtube.com/embed/mBdldkUCft8"
+    "videoSrc": "https://www.youtube.com/embed/N7O8VC5vOuc"
   },
   {
-    "name": "Мойл спа",
+    "name": "Биомон бие арчилгаа",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
-    "videoSrc": "https://www.youtube.com/embed/mBdldkUCft8"
+    "videoSrc": "https://www.youtube.com/embed/j0Bj31mT"
   }
   
 

@@ -24,7 +24,7 @@ export default function ShopSidebar() {
       <div className="shop-sidebar__content">
         <div className="shop-sidebar__section -categories">
           <SectionTitleOne className="-medium" spaceBottom={30 / 16 + "em"}>
-            Categories
+            Төрлүүд
           </SectionTitleOne>
           <ul>
             {shop.CATEGORISE.map((item, index) => (

@@ -42,7 +42,7 @@ export default function TopNavTwo({ container }) {
               className="-borderless"
             />
             <Link href={process.env.PUBLIC_URL + "#"}>
-              <a className="top-nav__auth">Login/asdas</a>
+              <a className="top-nav__auth">Login/Register</a>
             </Link>
           </div>
         </div>
