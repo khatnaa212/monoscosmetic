@@ -14,6 +14,15 @@ import teamOneData from "../../data/team/teamOne.json";
 import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 import CategeroiesTwo from "../../components/Sections/Categories/CategoriesTwo";
 import categoriesTwodata from "../../data/categories/categoryTwo.json";
+import TestimonialFour from "../../components/Sections/Testimonial/TestimonialFour";
+import testimonialData from "../../data/testimonial/testimonialFour.json";
+import testimonialFiveData from "../../data/testimonial/testimonialFive.json";
+import TestimonialFive from "../../components/Sections/Testimonial/TestimoniallFive";
+
+
+
+
+
 
 
 export default function homepage1() {
@@ -25,6 +34,17 @@ export default function homepage1() {
       <IntroductionTwo data={introductionTwoData} />
       <ProductSlideOne data={productSlideOneData} />
       <TestimonialOne data={testimonialOneData} />
+      <div className="row" style={{marginBottom:"95px"}}>
+        <div className="col-6">
+      
+        <TestimonialFive data={testimonialFiveData} />
+
+        </div>
+        <div className="col-6">
+        <TestimonialFour data={testimonialData} />     
+
+          </div>
+      </div>
       <TeamOne data={teamOneData} />
       <CTAOne />
     </LayoutOne>

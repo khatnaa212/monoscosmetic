@@ -16,10 +16,10 @@ import introductionEightData from "../../data/introduction/introductionEight.jso
 
 export default function services() {
   return (
-    <LayoutFour title="Бидний тухай">
-      <Breadcrumb title="Бидний тухай">
+    <LayoutFour title="Компаны тухай">
+      <Breadcrumb title="Компаны тухай">
         <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Бидний тухай" current />
+        <BreadcrumbItem name="Компаны тухай" current />
       </Breadcrumb>
     <div className="row" style={{maxWidth:"1600px", margin:"0 auto", padding:"0px 25px", position:"relative"}}> 
 

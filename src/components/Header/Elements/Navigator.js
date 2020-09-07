@@ -57,7 +57,7 @@ export default function Navigator({ disableSubmenu, className, data }) {
         //   </li>
         // );
       }
-      if (item.title === "Бүтээгдэхүүн") {
+      if (item.title === "БҮТЭЭГДЭХҮҮН") {
         return (
           <li key={index}>
             <Link href={process.env.PUBLIC_URL + item.to}>
