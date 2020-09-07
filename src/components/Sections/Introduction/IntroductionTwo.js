@@ -9,8 +9,7 @@ export default function IntroductionTwo({ data, style }) {
 
   return (
     <div className="introduction-two" style={style}>
-      <VideoFrame poster={currentVideoImg} height={500} src={currentVideoSrc} />
-      <div className="introduction-two__content">
+       <div className="introduction-two__content">
         <div className="container">
           {data.map((item, index) => (
             <div
@@ -37,6 +36,8 @@ export default function IntroductionTwo({ data, style }) {
           ))}
         </div>
       </div>
+      <VideoFrame poster={currentVideoImg} height={500} src={currentVideoSrc} />
+     
     </div>
   );
 }

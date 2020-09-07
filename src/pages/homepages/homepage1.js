@@ -14,17 +14,16 @@ import teamOneData from "../../data/team/teamOne.json";
 import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 import CategeroiesTwo from "../../components/Sections/Categories/CategoriesTwo";
 import categoriesTwodata from "../../data/categories/categoryTwo.json";
-
+import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
+import introductionEightData from "../../data/introduction/introductionEight.json";
 
 export default function homepage1() {
   return (
     <LayoutOne title="Монос Косметикс" data={sliderData} className="-style-1">
       <SliderTwo data={sliderData} className="-style-1" showDots />
-      <CategeroiesTwo data={categoriesTwodata}/>
       <IntroductionOne data={introductionOneData} />
-      <IntroductionTwo data={introductionTwoData} />
       <ProductSlideOne data={productSlideOneData} />
-      <TestimonialOne data={testimonialOneData} />
+      <IntroductionEight data={introductionEightData} />
       <TeamOne data={teamOneData} />
       <CTAOne />
     </LayoutOne>
