@@ -7,7 +7,7 @@ import { NextArrow, PrevArrow } from "../../../Other/SliderArrow";
 import Button from "../../../Control/Button";
 import ProductSlider from "../Elements/ProductSlider";
 
-const categories = ["Бүгд", "Eyes", "Face", "Lips"];
+const categories = ["Хямдралтай"];
 
 export default function ProductTabSlideOne({ data }) {
   const settings = {

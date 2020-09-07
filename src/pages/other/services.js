@@ -8,8 +8,7 @@ import TestimonialThree from "../../components/Sections/Testimonial/TestimonialT
 import testimonialData from "../../data/testimonial/testimonialThree.json";
 import IntroductionSix from "../../components/Sections/Introduction/IntroductionSix";
 import introductionSixData from "../../data/introduction/introductionSix.json";
-import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
-import introductionEightData from "../../data/introduction/introductionEight.json";
+
 
 
 
@@ -36,7 +35,6 @@ export default function services() {
               bigImgSrc={process.env.PUBLIC_URL + item.bigImgSrc}
             />
           ))}
-          <IntroductionEight data={introductionEightData} />
         </div>
       </div>
 

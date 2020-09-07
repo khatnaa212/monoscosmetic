@@ -119,7 +119,7 @@
     }
   }
   &__content {
-    background-color: #f7f5f4;
+    background-image: url("/assets/images/homepagebanner.jpg");
     padding: 0.375em 0;
     @include mq(xl) {
       padding-top: 30%;
