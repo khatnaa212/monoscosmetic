@@ -9,13 +9,7 @@
       
     ]
   },
-  { "title": "Компаны тухай", "to": "/other/company",
-    "subMenu":[
-      {"title": "Захиралын мэндчилгээ","to":"/other/services"},
-      {"title": "Компаний тухай","to":"/other/company"},
-      {"title": "Он цагийн хэлхээс","to":"shop/shop/list-sidebar"}
-    ]
-  },
+  { "title": "Компаны тухай", "to": "/other/services"},
   { "title": "Мэдээ", "to": "/blog" },
   {
     "title": "Бүтээгдэхүүн",
