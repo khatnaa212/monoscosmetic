@@ -119,7 +119,7 @@ export default function ShopSidebar() {
               <img
                 src={
                   process.env.PUBLIC_URL +
-                  "/assets/images/shop/advertisment.png"
+                  "/assets/images/logo-white.png"
                 }
                 alt="ads"
               />

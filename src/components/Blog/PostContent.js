@@ -14,8 +14,8 @@ export default function PostContent({ data, children }) {
     <div className="post-content">
       <div className="post-content__header">
         <div className="post-content__header__date">
-          <h5>05</h5>
-          <p>Feb</p>
+          <h5></h5>
+          <p>09.04</p>
         </div>
         <div className="post-content__header__content">
           <div className="post_content__info">
@@ -33,7 +33,7 @@ export default function PostContent({ data, children }) {
         </div>
       </div>
       <div className="post-content__body">
-        <p className="post-paragraph">
+        {/* <p className="post-paragraph">
           Like every year, this new year also brought in a lot of resolutions
           that we promised to keep. One such common resolution was pampering our
           skin and while there is a huge possibility that we have done
@@ -52,27 +52,27 @@ export default function PostContent({ data, children }) {
           that you think your body yearns to keep you awake is eventually going
           to take a bad toll on your skin. In fact, whatever you eat has a
           direct impact on your skin.
-        </p>
+        </p> */}
         <ImageLightbox
           className="post-image"
           alt="post image"
           imgSrc={"/assets/images/blog/post_img.png"}
         />
-        <p className="post-paragraph">
+        {/* <p className="post-paragraph">
           <span>Drink loads of water - </span>I cannot emphasize this point
           enough. One thing that you cannot skip upon is drinking 3 litres of
           water each day regardless of the weather. Water is a boon sent from
           heaven just for your skin. Drinking water can help you flush out
           toxins which clear all the pimples and bumps from the surface of your
           skin.
-        </p>
-        <p className="post-paragraph">
+        </p> */}
+        {/* <p className="post-paragraph">
           <span>Have a skin regime – </span>
           Even if it just includes washing your face and moisturizing it have a
           skin regime. Having a skin regime is similar to having a balanced diet
           for your skin.
-        </p>
-        <div className="post-quote">
+        </p> */}
+        {/* <div className="post-quote">
           <h5>
             {" "}
             Avoid having an erratic sleep pattern and do not let your work
@@ -82,12 +82,10 @@ export default function PostContent({ data, children }) {
             <i className="fas fa-quote-left"></i>
             <p>Trevor Lawson</p>
           </div>
-        </div>
+        </div> */}
         <p className="post-paragraph">
-          <span>Sleeping beauty – </span>
-          The consequences of your bad lifestyle habits are quite evident on
-          your skin if you don’t improve. Having a sound sleep of 8 hours is the
-          least one could do to have a healthy and glowing skin.
+          <span>– </span>
+          {data.content}
         </p>
       </div>
       <div className="post-content__footer">

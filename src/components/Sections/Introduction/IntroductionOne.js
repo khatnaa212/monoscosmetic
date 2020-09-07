@@ -71,7 +71,7 @@ export default function IntroductionOne({ data }) {
               <Button
                 color={data.btn.color}
                 content={data.btn.content}
-                action="#"
+                action="/shop/list-sidebar"
               />
             </div>
           </div>

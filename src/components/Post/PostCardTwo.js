@@ -7,8 +7,8 @@ export default function PostCardTwo({ data }) {
         <img src={data.thumbImage} alt={data.title} />
         <div className="post-card-two__info">
           <div className="post-card-two__info__date">
-            <h5>05</h5>
-            <p>Feb</p>
+            <h5></h5>
+            <p>09.04</p>
           </div>
           <div className="post-card-two__info__detail">
             <p>

@@ -62,7 +62,7 @@ export default function MenuFunctionIcons(props) {
                 />
               </a>
             </Link>
-            <div className="menu__cart">
+            {/* <div className="menu__cart">
               <a
                 href="#"
                 className="menu-icon -cart"
@@ -86,7 +86,7 @@ export default function MenuFunctionIcons(props) {
               <h5>
                 Сагс: <span>{formatCurrency(calcalateTotal(cartState))}</span>
               </h5>
-            </div>
+            </div> */}
             <a
               href="#"
               className="menu-icon -navbar"

@@ -31,7 +31,7 @@ export default function () {
     setCurrentData(sortedProduct);
   }, [offset, currentSort, filterData]);
   return (
-    <LayoutFour title="Дэлгүүр">
+    <LayoutFour title="Бүтээгдэхүүн">
       <Breadcrumb title="Дэлгүүр">
         <BreadcrumbItem name="Нүүр" />
         <BreadcrumbItem name="Дэлгүүр" current />

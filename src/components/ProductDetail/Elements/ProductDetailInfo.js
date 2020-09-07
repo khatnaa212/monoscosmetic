@@ -23,7 +23,7 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
   const onAddToCart = (e) => {
     e.preventDefault();
     dispatch(addToCart(data, quantity, otherColor));
-    toast.success("Product added to cart");
+    toast.success("Бүтээгдэхүүн сагслагдлаа");
   };
   const onAddToWishList = (e) => {
     e.preventDefault();
@@ -31,9 +31,9 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
     dispatch(addToWishlist(data));
     toast.dismiss();
     if (!product) {
-      return toast.success("Product added to wishlist !");
+      return toast.success("Бүтээгдэхүүн хүслийн жагсаалт руу орлоо !");
     } else {
-      return toast.error("Product removed from wishlist !");
+      return toast.error("Бүтээгдэхүүн хүслийн жагсаалтнаас хасагдлаа !");
     }
   };
   return (

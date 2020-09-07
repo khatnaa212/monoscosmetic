@@ -3,11 +3,11 @@ export const product = {
 };
 
 export const blog = {
-  CATEGORIES: ["Beauty tips", "Make up", "Skin care", "Body care", "Videos"],
+  CATEGORIES: ["Онцлох мэдээ", "Зурган мэдээ", "Медиа мэдээ"],
 };
 
 export const shop = {
-  CATEGORISE: ["all", "eyes", "face", "lips", "set"],
+  CATEGORISE: ["Арьс арчилгаа", "Үс арчилгаа", "Бие арчилгаа", "Хүүхэд", "Мойл спа","Мойл органик"],
   BRANDS: ["БИОГЕН", "БИОМОН", "БИОДЕРМ", "АЛОЕ", "САНИТАС"],
   PRICE_POINTS: [0, 10000, 20000, 30000, 40000],
   SORT_TYPES: [

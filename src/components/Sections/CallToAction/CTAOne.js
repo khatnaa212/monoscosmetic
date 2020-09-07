@@ -71,7 +71,7 @@ export default function CTAOne() {
                     <span className="input-error">Please choose a service</span>
                   )}
                 </div> */}
-                <div className="input-validator">
+                {/* <div className="input-validator">
                   <select
                     name="date"
                     ref={register({ required: true })}
@@ -90,7 +90,7 @@ export default function CTAOne() {
                   {errors.date && (
                     <span className="input-error">Please choose a date</span>
                   )}
-                </div>
+                </div> */}
                 <button className="btn -light-red"> Илгээх</button>
               </form>
             </div>

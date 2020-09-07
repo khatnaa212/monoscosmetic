@@ -30,7 +30,7 @@ export default function TeamOne({ data }) {
     <div className="team-one">
       <div className="container">
         <SectionTitleOne align="center" spaceBottom="1.875em">
-          Инфлүнсер
+          Олны танил хүмүүс
         </SectionTitleOne>
         <Slider {...settings}>
           {data.map((user, index) => (
