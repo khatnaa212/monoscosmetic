@@ -17,7 +17,6 @@ export default function IntroductionEight({ data }) {
             </div>
           </div>
           <div className="col-12 col-lg-8 order-lg-1">
-            <SectionTitleOne>Why Choose “Your Product”?</SectionTitleOne>
             <div className="introduction-eight__content">
               <div className="row">
                 {data.map((item, index) => (

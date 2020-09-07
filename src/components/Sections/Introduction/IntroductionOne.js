@@ -23,11 +23,11 @@ export default function IntroductionOne({ data }) {
             <div className="introduction-one__image">
               <div className="introduction-one__image__detail">
                 <img
-                  src="/assets/images/product/biogen_hand1.png"
+                  src="/assets/images/product/biogen_hand11.png"
                   alt="background"
                 />
                 <img
-                  src="/assets/images/product/Biogen_cream1.png"
+                  src="/assets/images/product/Biogen_cream11.png"
                   alt="background"
                 />
               </div>
@@ -71,7 +71,7 @@ export default function IntroductionOne({ data }) {
               <Button
                 color={data.btn.color}
                 content={data.btn.content}
-                action="#"
+                action="/shop/list-sidebar"
               />
             </div>
           </div>

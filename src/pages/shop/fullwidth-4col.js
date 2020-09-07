@@ -21,10 +21,10 @@ export default function () {
     setCurrentData(sortedProduct.slice(offset, offset + pageLimit));
   }, [offset, currentSort]);
   return (
-    <LayoutFour title="Дэлгүүр" container="wide">
-      <Breadcrumb title="Дэлгүүр">
+    <LayoutFour title="Бүтээгдэхүүн" container="wide">
+      <Breadcrumb title="Бүтээгдэхүүн">
         <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Дэлгүүр" current />
+        <BreadcrumbItem name="Бүтээгдэхccүүн" current />
       </Breadcrumb>
       <div className="shop">
         <div className="container-full-half">

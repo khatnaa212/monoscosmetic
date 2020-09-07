@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/assets/images/testimonial/TestimonialOne/5.png",
-    "name": "Жаргалмаа Батмөнх",
-    "city": "Монос улаанбаатар",
-    "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
+    "name": "Одонтуяа Баасанцэрэн",
+    "city": "--",
+    "review": "Анх ив роше хэрэглэдэг байлаа тэгсэн санхүүгийн хямралд ороод ккк нүүрний юм дуусч байдаг юу авах вэ гээл тгд монос орсон алоетой ком байнаа комоороо 30к болж байна за яадын бэ гээл авсан гэртээ ирээл түрхлээ тэгсэн үнэр нь их сонион за энэ ч дээ гээл бодож байлаа хэд хэд хэрэглэсэний дараа ихсээд байсан хялгасан үрчлээнүүд байхгүй шүү нүүр нэг л толийгоод нүүрний юмаа солихоор эхэндээ нэг л хорсоод загатнаад байгаа юм шиг байдаг байсан огт тийм биш сүүлдээ үнэр ч нь гоё санагддаг болсон одоо бол байнгын хэрэглээ ёстой л нөгөө монгол хүний онцлогт тохирсон бүтээгдэхүүн шүү байнга хэрэглээд л байж байна даа үнэ ч боломжийн санхүүд ч хэмнэлттэй олон талын л ашигтай байна даа хэхэ.",
     "rate": 4
   },
   {
     "id": 2,
     "image": "/assets/images/testimonial/TestimonialOne/5.png",
-    "name": "Болд Онон",
-    "city": "Монос ХХК",
-    "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
+    "name": "Оюунгэрэл Мөнхбат",
+    "city": "--",
+    "review": "Arisiig zuulruulj bas uneheer sain chiigshuuldeg .Bas mongold uildverlesen bolohoor naidvartai sanagddag shuu .Amjilt.",
     "rate": 4
   },
   {
     "id": 3,
     "image": "/assets/images/testimonial/TestimonialOne/5.png",
     "name": "Цэрэндижид Анар",
-    "city": "Таванбогд",
-    "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
+    "city": "--",
+    "review": "Үнэн бэст шүү бүр арьсыг маань бүр аймар гоё чийгшүүлээд зөөлөн болгодог. Миний нүүрэнд барагтай юм таардаггүй юм. Тэгсэн энэ ком маань бүр аймар гоё таараад арьс аймар гоё байгаабудахад арьс арзайж марзайхгүй будаг гоё шингээд ёстой гоё болсон.  Энэ комд бүр дурлаад хайлж урсаад байнаа саяхнаас хэрэглэж эхэлсэн мөртлөө одоо дандаа энэ комыг л хэрэглэнэ гэж бодож байгаа ямартай ч надад лав мааааш их таалагдсаан бүр аймаааааар их таалагдсан.",
     "rate": 4
   },
   {
@@ -28,15 +28,15 @@
     "image": "/assets/images/testimonial/TestimonialOne/5.png",
     "name": "Жаргалсайхан Золжаргал",
     "city": "МСМ групп",
-    "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
+    "review": "Enehuu butegdehuunudig hereglehed nuurend chiigshel sain ugch arisni ungu goy sergej bnle zunduu ih taalagdsan.",
     "rate": 4
   },
   {
     "id": 5,
     "image": "/assets/images/testimonial/TestimonialOne/5.png",
     "name": "Дуламсүрэн Мөнхтөр",
-    "city": "Буман Айти",
-    "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
+    "city": "-- ",
+    "review": "Nvvr ugaagch ni arisnd mn mash sain taarch bsn tonik svvn shingen ndd mash sain chiigshil ogch nvvriig mn bvvr goy bolgood bnshvv dee.",
     "rate": 4
   },
   {

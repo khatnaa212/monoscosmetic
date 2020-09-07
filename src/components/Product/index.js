@@ -83,7 +83,7 @@ function Product({ data, type, className }) {
               </a>
             </Link>
             <div className="product__thumb__actions">
-              <div className="product-btn" data-tip data-for="cartIcon">
+              {/* <div className="product-btn" data-tip data-for="cartIcon">
                 <Button
                   height="50px"
                   width="50px"
@@ -96,11 +96,11 @@ function Product({ data, type, className }) {
                   `}
                   action="#"
                   onClick={addToCartHandle}
-                  content={<i className="fas fa-shopping-bag" />}
+                  content={<i className="" />}
                 ></Button>
-              </div>
+              </div> */}
               <ReactTooltip id="cartIcon" type="dark" effect="solid">
-                <span>Сагслах</span>
+                <span></span>
               </ReactTooltip>
               <div className="product-btn" data-tip data-for="qvIcon">
                 <Button

@@ -89,7 +89,7 @@ export default function () {
                         <td>{formatCurrency(item.price)}</td>
                         <td>{item.quantity > 0 ? "Байгаа" : "Дууссан"}</td>
                         <td>
-                          <a
+                          {/* <a
                             href={process.env.PUBLIC_URL + "#"}
                             className={`btn -dark ${
                               checkProductInCart(item.id) ? "-disable" : ""
@@ -99,7 +99,7 @@ export default function () {
                             {checkProductInCart(item.id)
                               ? "Сагс руу орсон"
                               : "Сагс руу нэмэх"}
-                          </a>
+                          </a> */}
                           <a
                             className="remove-btn"
                             href={process.env.PUBLIC_URL + "#"}

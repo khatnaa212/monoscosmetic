@@ -19,15 +19,7 @@ export default function TestimonialThree({ data }) {
           {data.map((item, index) => (
             <div className="outline-none" key={index}>
               <div className="testimonial-three__item">
-                <p>
-                  <i className="fal fa-quote-left" />
-                  Testimonial
-                </p>
-                <h3>{item.quote}</h3>
-                <div className="author-info">
-                  <h5>{item.authorName}</h5>
-                  <span>{item.liveAt}</span>
-                </div>
+                <img src={item.image} alt="zx" />
               </div>
             </div>
           ))}

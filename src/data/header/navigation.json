@@ -9,11 +9,17 @@
       
     ]
   },
-  { "title": "Компаны тухай", "to": "/other/services" },
-  { "title": "Блог", "to": "/blog" },
+  { "title": "Компаны тухай", "to": "/other/company",
+    "subMenu":[
+      {"title": "Захиралын мэндчилгээ","to":"/other/services"},
+      {"title": "Компаний тухай","to":"/other/company"},
+      {"title": "Он цагийн хэлхээс","to":"shop/shop/list-sidebar"}
+    ]
+  },
+  { "title": "Мэдээ", "to": "/blog" },
   {
     "title": "Бүтээгдэхүүн",
-    "to": "/shop/fullwidth-4col",
+    "to": "/shop/fullwidth-left-sidebar",
 
     "subMenu": [
       { "title": "Арьс арчилгаа", "to": "/shop/list-sidebar" },

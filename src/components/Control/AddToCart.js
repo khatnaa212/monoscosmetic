@@ -3,17 +3,17 @@ import classNames from "classnames";
 
 export default function AddToCart({ onClick, className }) {
   return (
-    <div className={`add-to-cart ${classNames(className)}`} onClick={onClick}>
-      <Button
+    <div>
+      {/* <Button
         height="3.85em"
         width="3.85em"
         color="red"
         className="-round"
         action="#"
-        content={<i className="fas fa-shopping-bag"></i>}
-      />
+        content={<i className=""></i>}
+      /> */}
 
-      <h5>Сагслах</h5>
+      <h5></h5>
     </div>
   );
 }

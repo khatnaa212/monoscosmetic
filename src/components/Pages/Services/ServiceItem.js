@@ -36,7 +36,7 @@ export default function ServiceItem(props) {
       <div className="container">
         <div className="row">
           <div
-            className={`col-12 col-md-6 ${classNames({
+            className={`col-12 col-md-12 ${classNames({
               "order-md-2": reverse,
             })}`}
           >
@@ -56,51 +56,35 @@ export default function ServiceItem(props) {
                 </div>
                 <div className="image__item">
                   <div ref={bg2} className="wrapper">
-                    <img
+                    {/* <img
                       data-depth="0.2"
                       data-invert-x
                       data-invert-y
                       src={smallImgSrc}
                       alt="image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className={`col-12 col-md-6 ${classNames({
+                   <div
+            className={`col-12 col-md-12 ${classNames({
               "order-md-1": reverse,
             })}`}
           >
             <div className="services__item__content">
-              <div className="services__item__order">
-                {reverse ? <h3>.{order}</h3> : <h3>{order}.</h3>}
-              </div>
-              <h2 className="services__item__title">Body treatment</h2>
+             
               <p className="services__item__description">
-                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis
-                pendisse ultrices gravida. Risus commodo viverra lacus vel
-                facilisis.
+              Монос Косметик ХХК байгуулагдаж, Монгол улсад гоо сайхны салбар үүсч хөгжсөний 30 жилийн ойн баярын мэндийг Монос нэрээр овоглож Монос Косметикийн тулгын чулууг тавилцаж, хөгжлийн түүхийг хамтдаа бүтээлцсэн ахмад буурлууд, үе үеийн удирдлага, хамт олон, одоо ажиллаж шинэ түүхийг бүтээж буй нийт ажилтнууд болон биднийг хөгжин дэвших, урагшлан ахихад үргэлж дэмжин, бидэнд итгэн, үндэсний үйлдвэрлэлээ сонгон хэрэглэж ирсэн эрхэм хэрэглэгч, харилцагчиддаа өргөн дэвшүүлье.
+
+Монос Косметик ХХК-ийн 30 жилийн түүх бол Монгол улсад гоо сайхны цоо шинэ салбарыг хөгжүүлж, шинэ технологийг улсдаа нэвтрүүлж, Монгол орны байгалийн шим, Монгол хүний ур ухаан, Монгол оюун сэтгэлгээг дэлхийд таниулсан, амжилт ололт, арвин туршлагаар дүүрэн үйлдвэрлэлийн салбарын нэгэн түүх юм.
+
+1990 онд анхны бүтээгдэхүүнээ  үйлдвэрлэж эхлэснээс хойш бид  өнөөдөр үйлдвэрлэлийн шугамаар 90 нэр төрлийн, органик үйлдвэрлэлийн 40-өөд нэр төрлийн, нийт 130 гаруй нэр төрлийн арьс арчилгаа, үс арчилгаа, бие арчилгаа, хүүхдийн арьс арчилгаа, гар арчилгааны бүтээгдэхүүнийг хэрэглэгчдийнхээ хэрэгцээнд зориулан үйлдвэрлэж байна.
+
+Монос Косметик ХХК-ийн хамт олон та бүхний эрүүл мэнд, гоо сайхны төлөө авъяас чадвар, сэтгэл зүрх, мэдлэг боловсролоо зориулан улам шаргуу ажиллах болно. 30 жилийн турш хамтдаа байгаа хэрэглэгчид та бүхэндээ чин сэтгэлийн талархал илэрхийлье.
               </p>
-              <ul>
-                <li>
-                  {renderListStyle("Lorem ipsum dolor sit amet, consectetur.")}
-                </li>
-                <li>
-                  {renderListStyle("Adipiscing elit, sed do eiusmod tempor.")}
-                </li>
-                <li>
-                  {renderListStyle(
-                    "Incididunt ut labore et dolore magna aliqua."
-                  )}
-                </li>
-                <li>
-                  {renderListStyle("Quis ipsum suspendisse ultrices gravida.")}
-                </li>
-              </ul>
-              <Button color="white" action="#" content="Read more" />
+              
             </div>
           </div>
         </div>
