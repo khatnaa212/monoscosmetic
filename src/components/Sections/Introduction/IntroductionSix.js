@@ -6,7 +6,6 @@ export default function IntroductionSix({ data }) {
   return (
     <div className="introduction-six">
       <div className="container">
-        <SectionTitleOne align="center">What Ingredients?</SectionTitleOne>
         <div className="introduction-six__wrapper">
           <div className="row">
             {data.map((item, index) => (

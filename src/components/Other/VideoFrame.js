@@ -12,9 +12,9 @@ export default function VideoFrame(props) {
     <>
       <div
         className={`video-frame ${classNames(className)}`}
-        style={{ height: height, width: width ? width : (height * 16) / 9 }}
+        style={{ height: height, width: width ? width : (height * 17) / 15 }}
       >
-        <div className="video-frame__poster">
+        <div className="video-frame__poster" >
           <img src={poster} alt="Video poster" />
         </div>
         <Button
