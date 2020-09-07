@@ -8,7 +8,7 @@ export default function DaleOfWeekOne({ subTitle, title, last }) {
       <div className="dow-one__image">
         <img
           src={
-            process.env.PUBLIC_URL + "/assets/images/deal_of_week/DOWOne/1.png"
+            process.env.PUBLIC_URL + "/assets/images/product/biogen_hand.png"
           }
           alt="Dale of the week image"
         />

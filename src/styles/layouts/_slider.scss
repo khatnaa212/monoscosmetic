@@ -52,7 +52,7 @@
     &__item {
       display: flex !important;
       align-items: center;
-      height: emCal(16, 600);
+      height: emCal(26, 700);
       position: relative;
       z-index: 2;
       outline: 0;
@@ -149,7 +149,6 @@
     }
   }
   &.-style-1 {
-    margin-bottom: remCal(100);
     .slider-dots {
       li {
         &.slick-active {
