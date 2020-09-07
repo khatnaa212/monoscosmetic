@@ -15,6 +15,7 @@ import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 import CategeroiesTwo from "../../components/Sections/Categories/CategoriesTwo";
 import categoriesTwodata from "../../data/categories/categoryTwo.json";
 
+
 export default function homepage1() {
   return (
     <LayoutOne title="Монос Косметикс" data={sliderData} className="-style-1">

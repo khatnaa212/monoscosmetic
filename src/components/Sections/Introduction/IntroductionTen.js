@@ -1,7 +1,11 @@
 import Link from "next/link";
+import ProductDetailInfo from "./../../ProductDetail/Elements/ProductDetailInfo";
 
-export default function IntroductionTen({ data }) {
+
+export default function IntroductionTen({ data}) {
   return (
+  <div className="row">
+    <div className="col-6">
     <div className="introduction-ten">
       <div className="container">
         <div className="introduction-ten__wrapper">
@@ -23,7 +27,14 @@ export default function IntroductionTen({ data }) {
             </div>
           ))}
         </div>
+        
       </div>
     </div>
+    </div>
+    <div className="col-6">
+
+      
+    </div>
+  </div>
   );
 }

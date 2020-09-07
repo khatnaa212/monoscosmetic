@@ -3,10 +3,12 @@ import classNames from "classnames";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import ReactTooltip from "react-tooltip";
+import ProductDetailInfo from "../../ProductDetail/Elements/ProductDetailInfo";
+
 
 import menuData from "../../../data/header/navigation.json";
 
-export default function Navigator({ disableSubmenu, className }) {
+export default function Navigator({ disableSubmenu, className, data }) {
   function renderMenu() {
     return menuData.map((item, index,data) => {
       if (item.title === "Нүүр") {
@@ -86,6 +88,7 @@ export default function Navigator({ disableSubmenu, className }) {
                       }
                       alt="New product banner"
                     />
+              <h2>{data.name}</h2>
                   </a>
                 </Link>
                 
