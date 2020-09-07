@@ -120,7 +120,7 @@
   }
   &__content {
     background-color: #f7f5f4;
-    padding: emCal(16, 70) 0;
+    padding: 0.375em 0;
     @include mq(xl) {
       padding-top: 30%;
     }
@@ -131,7 +131,7 @@
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-      margin-bottom: emCal(16, 50);
+      margin-bottom: 2.125em;
       &:last-child {
         margin-bottom: 0;
       }
