@@ -44,20 +44,6 @@
   {
     "title": { "main": "Beauty salon" },
     "subTitle": "We make best makeup",
-    "image": "/assets/images/banner/biomon miccellar banner.jpg",
-    "btn": {
-      "content": "Appointment",
-      "color": "red"
-    },
-    "animationClass": {
-      "title": "slider-one-title",
-      "subtitle": "slider-one-subtitle",
-      "button": "slider-one-button"
-    }
-  },
-  {
-    "title": { "main": "Beauty salon" },
-    "subTitle": "We make best makeup",
     "image": "/assets/images/slider/SliderOne/emonos_shumuul.jpg",
     "btn": {
       "content": "Appointment",
