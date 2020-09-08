@@ -22,17 +22,15 @@ import TestimonialFive from "../../components/Sections/Testimonial/TestimoniallF
 
 
 
-
 export default function homepage1() {
   return (
     <LayoutOne title="Монос Косметикс" data={sliderData} className="-style-1">
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
-      <ProductSlideOne data={productSlideOneData} />
-      <TestimonialOne data={testimonialOneData} />
+      <IntroductionTwo data={introductionTwoData} />
+
       <div className="row" style={{marginBottom:"95px"}}>
         <div className="col-6">
-      
         <TestimonialFive data={testimonialFiveData} />
 
         </div>
@@ -41,6 +39,7 @@ export default function homepage1() {
 
           </div>
       </div>
+      <ProductSlideOne data={productSlideOneData} />
       <TeamOne data={teamOneData} />
       <CTAOne />
     </LayoutOne>
