@@ -34,9 +34,9 @@ export default function CategoriesTwo({ data }) {
   return (
     <div className="category-two">
       <Slider {...settings}>
-        {data.map((item, index) => (
+        {data.map((item, index, to) => (
           <div key={index}>
-            <Link href="/shop/fullwidth-4col">
+            <Link href="/shop/fullwidth-left-sidebar">
               <a className="category-two__item">
                 <img src={item.icon} alt="Category icon" />
                 <h3>{item.name}</h3>

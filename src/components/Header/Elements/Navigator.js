@@ -35,29 +35,29 @@ export default function Navigator({ disableSubmenu, className, data }) {
         // );
       }
       if(item.title==="Компаны тухай") {
-        return(
-          <li className="relative" key={index}>
-            <Link href={process.env.PUBLIC_URL + item.to}>
-              <a>
-                {item.title}
-                <span className="dropable-icon">
-                  <i className="fas fa-angle-down"></i>
-                </span>
-              </a>
-            </Link>
-            <ul className="dropdown-menu">
-              {item.subMenu.map((i,index)=>(
-                <li key={index}>
-                  <Link href={i.to}>
-                    <a>{i.title}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-        );
+        // return(
+        //   <li className="relative" key={index}>
+        //     <Link href={process.env.PUBLIC_URL + item.to}>
+        //       <a>
+        //         {item.title}
+        //         <span className="dropable-icon">
+        //           <i className="fas fa-angle-down"></i>
+        //         </span>
+        //       </a>
+        //     </Link>
+        //     <ul className="dropdown-menu">
+        //       {item.subMenu.map((i,index)=>(
+        //         <li key={index}>
+        //           <Link href={i.to}>
+        //             <a>{i.title}</a>
+        //           </Link>
+        //         </li>
+        //       ))}
+        //     </ul>
+        //   </li>
+        // );
       }
-      if (item.title === "Бүтээгдэхүүн") {
+      if (item.title === "БҮТЭЭГДЭХҮҮН") {
         return (
           <li key={index}>
             <Link href={process.env.PUBLIC_URL + item.to}>

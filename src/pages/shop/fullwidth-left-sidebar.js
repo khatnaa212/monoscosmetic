@@ -32,7 +32,7 @@ export default function () {
   }, [offset, currentSort, filterData]);
   return (
     <LayoutFour title="Бүтээгдэхүүн" container="wide">
-      <Breadcrumb title="Бүтээгдэхнүү">
+      <Breadcrumb title="Бүтээгдэхнүүн">
         <BreadcrumbItem name="Нүүр" />
         <BreadcrumbItem name="Бүтээгдэхүүн" current />
       </Breadcrumb>
@@ -49,7 +49,7 @@ export default function () {
                 getCurrentView={(view) => setCurrentView(view)}
               />
               {!currentData || currentData.length === 0 ? (
-                <h1>No product found</h1>
+                <h1>Бүтээгдэхүүн байхгүй байна</h1>
               ) : (
                 <>
                   <ShopProducts

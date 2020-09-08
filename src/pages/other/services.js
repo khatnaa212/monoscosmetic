@@ -8,18 +8,17 @@ import TestimonialThree from "../../components/Sections/Testimonial/TestimonialT
 import testimonialData from "../../data/testimonial/testimonialThree.json";
 import IntroductionSix from "../../components/Sections/Introduction/IntroductionSix";
 import introductionSixData from "../../data/introduction/introductionSix.json";
-import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
-import introductionEightData from "../../data/introduction/introductionEight.json";
+
 
 
 
 
 export default function services() {
   return (
-    <LayoutFour title="Бидний тухай">
-      <Breadcrumb title="Бидний тухай">
+    <LayoutFour title="Компаны тухай">
+      <Breadcrumb title="Компаны тухай">
         <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Бидний тухай" current />
+        <BreadcrumbItem name="Компаны тухай" current />
       </Breadcrumb>
     <div className="row" style={{maxWidth:"1600px", margin:"0 auto", padding:"0px 25px", position:"relative"}}> 
 
@@ -36,7 +35,6 @@ export default function services() {
               bigImgSrc={process.env.PUBLIC_URL + item.bigImgSrc}
             />
           ))}
-          <IntroductionEight data={introductionEightData} />
         </div>
       </div>
 

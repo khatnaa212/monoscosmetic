@@ -1,6 +1,6 @@
 [
   {
-    "title": "Нүүр",
+    "title": "НҮҮР",
     "to": "/homepages/homepage1",
 
     "subMenu":[
@@ -9,27 +9,21 @@
       
     ]
   },
-  { "title": "Компаны тухай", "to": "/other/company",
-    "subMenu":[
-      {"title": "Захиралын мэндчилгээ","to":"/other/services"},
-      {"title": "Компаний тухай","to":"/other/company"},
-      {"title": "Он цагийн хэлхээс","to":"shop/shop/list-sidebar"}
-    ]
-  },
-  { "title": "Мэдээ", "to": "/blog" },
+  { "title": "КОМПАНЫ ТУХАЙ", "to": "/other/services"},
+  { "title": "МЭДЭЭ", "to": "/blog" },
   {
-    "title": "Бүтээгдэхүүн",
+    "title": "БҮТЭЭГДЭХҮҮН",
     "to": "/shop/fullwidth-left-sidebar",
 
     "subMenu": [
-      { "title": "Арьс арчилгаа", "to": "/shop/list-sidebar" },
-      { "title": "Үс арчилгаа", "to": "/shop/list-sidebar" },
-      { "title": "Бие арчилгаа", "to": "/shop/list-sidebar" },
-      { "title": "Хүүхэд", "to": "/shop/list-sidebar" },
-      { "title": "Мойл органик", "to": "/shop/list-sidebar" },
-      { "title": "Мойл спа", "to": "/shop/list-sidebar" }
+      { "title": "АРЬС АРЧИЛГАА", "to": "/shop/list-sidebar" },
+      { "title": "ҮС АРЧИЛГАА", "to": "/shop/list-sidebar" },
+      { "title": "БИЕ АРЧИЛГАА", "to": "/shop/list-sidebar" },
+      { "title": "ХҮҮХЭД", "to": "/shop/list-sidebar" },
+      { "title": "МОЙЛ ОРГАНИК", "to": "/shop/list-sidebar" },
+      { "title": "МОЙЛ СПА", "to": "/shop/list-sidebar" }
     ]
   },
-  { "title": "Хүний нөөц", "to": "/other/contact" },
-  { "title": "Холбоо барих", "to": "/other/contact" }
+  { "title": "ХҮНИЙ НӨӨЦ", "to": "/other/contact" },
+  { "title": "ХОЛБОО БАРИХ", "to": "/other/contact" }
 ]
