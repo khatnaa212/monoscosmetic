@@ -14,7 +14,6 @@ import teamOneData from "../../data/team/teamOne.json";
 import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 import CategeroiesTwo from "../../components/Sections/Categories/CategoriesTwo";
 import categoriesTwodata from "../../data/categories/categoryTwo.json";
-<<<<<<< HEAD
 import TestimonialFour from "../../components/Sections/Testimonial/TestimonialFour";
 import testimonialData from "../../data/testimonial/testimonialFour.json";
 import testimonialFiveData from "../../data/testimonial/testimonialFive.json";
@@ -25,10 +24,6 @@ import TestimonialFive from "../../components/Sections/Testimonial/TestimoniallF
 
 
 
-=======
-import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
-import introductionEightData from "../../data/introduction/introductionEight.json";
->>>>>>> 3b82302fc12c4d65bcde3e6e365ee9a38daf141b
 
 export default function homepage1() {
   return (
@@ -36,7 +31,6 @@ export default function homepage1() {
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
       <ProductSlideOne data={productSlideOneData} />
-<<<<<<< HEAD
       <TestimonialOne data={testimonialOneData} />
       <div className="row" style={{marginBottom:"95px"}}>
         <div className="col-6">
@@ -49,9 +43,6 @@ export default function homepage1() {
 
           </div>
       </div>
-=======
-      <IntroductionEight data={introductionEightData} />
->>>>>>> 3b82302fc12c4d65bcde3e6e365ee9a38daf141b
       <TeamOne data={teamOneData} />
       <CTAOne />
     </LayoutOne>
