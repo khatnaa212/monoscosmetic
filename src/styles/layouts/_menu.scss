@@ -319,7 +319,7 @@
     .menu__wrapper {
       &__logo {
         img {
-          @include imgCenter(emCal(16, 30), emCal(16, 100), $type: contain);
+          @include imgCenter(emCal(10, 30), emCal(10, 100), $type: contain);
         }
       }
       .navigator {

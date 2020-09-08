@@ -28,6 +28,8 @@ export default function homepage1() {
     <LayoutOne title="Монос Косметикс" data={sliderData} className="-style-1">
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
+      <ProductSlideOne data={productSlideOneData} />
+      <TestimonialOne data={testimonialOneData} />
       <div className="row" style={{marginBottom:"95px"}}>
         <div className="col-6">
       
@@ -39,8 +41,6 @@ export default function homepage1() {
 
           </div>
       </div>
-      <ProductSlideOne data={productSlideOneData} />
-      
       <TeamOne data={teamOneData} />
       <CTAOne />
     </LayoutOne>
