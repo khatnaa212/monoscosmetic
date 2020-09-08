@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/influncer/eregtei.jpg",
-    "name": "Цэнгүүн",
-    "position": "Загвар өмсөгч",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "image": "/assets/images/influncer/dulguun.jpg",
+    "name": "Энхбат Дөлгөөн",
+    "position": "Positive Mongolians",
+    "quote": "" 
   },
   {
     "id": 2,
-    "image": "/assets/images/influncer/tsekv.jpg",
-    "name": "Цэрэндолгор",
-    "position": "Загвар өмсөгч",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "image": "/assets/images/influncer/deegii.jpeg",
+    "name": "Чухалаа Дээгий",
+    "position": "Хийлч",
+    "quote": ""
   },
   {
     "id": 3,
-    "image": "/assets/images/influncer/tugs.jpg",
-    "name": "Төгс ",
-    "position": "Загвар өмсөгч",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "image": "/assets/images/influncer/tuya.jpg",
+    "name": "А. Туяа",
+    "position": "Жүжигчин",
+    "quote": ""
   }
 ]

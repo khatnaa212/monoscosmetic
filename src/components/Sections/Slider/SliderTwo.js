@@ -41,14 +41,14 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
   };
   return (
     <div className={`slider ${classNames(className)}`}>
-      <div className="slider__carousel">
+      <div className="slider__carousel" >
         <Slider {...settings}>
           {data.map((slide, index) => (
             <div
               className={"slider__carousel__item " + `slider-${index + 1}`}
               key={index}
             >
-              <div className="container">
+              <div className="container" >
                 <div className="slider-background">
                   <CSSTransition
                     in={sliderIndex === index && sliderReady}

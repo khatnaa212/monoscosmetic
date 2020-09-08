@@ -24,6 +24,6 @@
       { "title": "МОЙЛ СПА", "to": "/shop/list-sidebar" }
     ]
   },
-  { "title": "ХҮНИЙ НӨӨЦ", "to": "/other/contact" },
+  { "title": "ХҮНИЙ НӨӨЦ", "to": "/other/humaresource" },
   { "title": "ХОЛБОО БАРИХ", "to": "/other/contact" }
 ]
