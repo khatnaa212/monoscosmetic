@@ -43,7 +43,7 @@ export default function ProductSlideOne({ data }) {
     <div className="product-slide">
       <div className="container">
         <SectionTitleOne align="center" spaceBottom="50px">
-          Бүтээгдэхүүн
+          БҮТЭЭГДЭХҮҮН
         </SectionTitleOne>
         <ProductSlider data={data} sliderSettings={settings} />
         <div className="text-center">

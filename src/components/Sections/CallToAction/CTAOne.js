@@ -19,7 +19,7 @@ export default function CTAOne() {
           <div className="col-12 col-md-6 mx-auto">
             <div className="cta__form">
               <SectionTitleOne align="center" spaceBottom="1.875em">
-              Бидэнтэй холбогдох 
+              БИДЭНТЭЙ ХОЛБОГДОХ
               </SectionTitleOne>
               <form
                 onSubmit={handleSubmit(onSubmit)}

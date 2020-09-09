@@ -35,14 +35,14 @@ export default function homepage1() {
       <div className="row" style={{marginBottom:"95px", marginTop:"35px"}}>
         <div className="col-6">
         <SectionTitleOne align="center" spaceBottom="1.875em">
-        <h6>Сарын онцлох бүтээгдэхүүн</h6>
+        <h6>САРЫН ОНЦЛОХ БҮТЭЭГДЭХҮҮН</h6>
         </SectionTitleOne>
         <TestimonialFive data={testimonialFiveData} />
 
         </div>
         <div className="col-6">
         <SectionTitleOne align="center" spaceBottom="1.875em">
-        <h6>Хямдралтай бүтээгдэхүүн</h6>
+        <h6>ХЯМДРАЛТАЙ БҮТЭЭГДЭХҮҮН</h6>
         </SectionTitleOne>
         <TestimonialFour data={testimonialData} />     
 
