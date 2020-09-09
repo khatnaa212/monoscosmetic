@@ -1,26 +1,26 @@
 [
   {
-    "name": "Биоген",
+    "name": "БИОГЕН",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
     "videoSrc": "https://www.youtube.com/embed/Ce5iQiy0D9I"
   },
   {
-    "name": "Алое",
+    "name": "АЛОЕ",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
     "videoSrc": "https://www.youtube.com/embed/GZ_GKmSwSF8"
   },
   {
-    "name": "Биомон кидс",
+    "name": "БИОМОН КИДС",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
     "videoSrc": "https://www.youtube.com/embed/jTthOgd3VLo"
   },
   {
-    "name": "Биомон шампунь",
+    "name": "БИОМОН ШАМПУНЬ",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
     "videoSrc": "https://www.youtube.com/embed/N7O8VC5vOuc"
   },
   {
-    "name": "Биомон бие арчилгаа",
+    "name": "БИОМОН БИЕ АРЧИЛГАА",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/5.png",
     "videoSrc": "https://www.youtube.com/embed/j0Bj31mT-mk"
   }
