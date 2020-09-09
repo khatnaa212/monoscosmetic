@@ -102,7 +102,7 @@
   position: relative;
   margin-bottom: remCal(100);
   @include mq(md) {
-    font-size: 14px;
+    font-size: 12px;
   }
   .video-frame {
     position: absolute;
@@ -150,7 +150,7 @@
       a {
         @include link(
           $hvr-color: setShadeColor(dark),
-          $fsz: emCal(16, 30),
+          $fsz: emCal(20, 30),
           $fw: 600
         );
         display: block;
