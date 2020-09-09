@@ -26,9 +26,9 @@
         position: absolute;
         z-index: 1;
         &:first-child {
-          top: 0;
-          left: 0;
-          max-width: 80%;
+          top: 106px;
+          left: 50px;
+          max-width: 73%;
         }
         &:last-child {
           bottom: 0;
@@ -119,7 +119,7 @@
     }
   }
   &__content {
-    background-image: url("/assets/images/homepagebanner.jpg");
+    background-color: #fef3ff;
     padding: 0.375em 0;
     @include mq(xl) {
       padding-top: 30%;
@@ -131,7 +131,8 @@
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-      margin-bottom: 2.125em;
+      margin-bottom: 1.125em;
+      padding-left: 200px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -748,7 +749,7 @@
           $color: #fff,
           $fw: 400
         );
-        font-family: "Braga";
+        font-family: "Mogul Magistral";
         margin-bottom: emCal(50, 20);
       }
       p {

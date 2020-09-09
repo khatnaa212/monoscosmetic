@@ -52,7 +52,7 @@
     &__item {
       display: flex !important;
       align-items: center;
-      height: emCal(32, 700);
+      height: emCal(26, 700);
       position: relative;
       z-index: 2;
       outline: 0;
@@ -302,7 +302,7 @@
       &__item {
         .slider-content {
           &__title {
-            font-family: "Braga";
+            font-family: "Mogul Magistral";
             font-weight: 400;
             // test
             padding-left: emCal(60, 15);
