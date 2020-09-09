@@ -57,6 +57,31 @@ export default function Navigator({ disableSubmenu, className, data }) {
         //   </li>
         // );
       }
+      if(item.title==="ХҮНИЙ НӨӨЦ"){
+        return(
+          <li className="relative" key={index}>
+            <Link href={process.env.PUBLIC_URL + item.to}>
+              <a>
+                {item.title}
+                <span className="dropable-icon">
+                  <i className="fas fa-angle-down"></i>
+                </span>
+              </a>
+            </Link>
+            <ul className="dropdown-menu" style={{width:"300px"}}>
+              <ul className="dropdown-menu__col">
+                {item.subMenu.slice(0,3).map((i,index)=>(
+                  <li key={index}>
+                    <Link href={process.env.PUBLIC_URL + i.to}>
+                      <a>{i.title}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </ul>
+          </li>
+        )
+      }
       if (item.title === "БҮТЭЭГДЭХҮҮН") {
         return (
           <li key={index}>

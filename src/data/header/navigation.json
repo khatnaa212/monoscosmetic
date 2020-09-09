@@ -24,6 +24,11 @@
       { "title": "МОЙЛ СПА", "to": "/shop/list-sidebar" }
     ]
   },
-  { "title": "ХҮНИЙ НӨӨЦ", "to": "/other/humaresource" },
+  { "title": "ХҮНИЙ НӨӨЦ", "to": "/other/humanresource", 
+    "subMenu":[
+      {"title": "ХҮНИЙ НӨӨЦИЙН БОДЛОГО", "to":"/other/humanresource"},
+      {"title": "НЭЭЛТТЭЙ АЖЛЫН БАЙР","to":"https://www.zangia.mn/job/list/q.%D0%9C%D0%BE%D0%BD%D0%BE%D1%81"}
+    ]
+  },
   { "title": "ХОЛБОО БАРИХ", "to": "/other/contact" }
 ]
