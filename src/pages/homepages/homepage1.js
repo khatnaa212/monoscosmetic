@@ -16,7 +16,9 @@ import TestimonialFour from "../../components/Sections/Testimonial/TestimonialFo
 import testimonialData from "../../data/testimonial/testimonialFour.json";
 import testimonialFiveData from "../../data/testimonial/testimonialFive.json";
 import TestimonialFive from "../../components/Sections/Testimonial/TestimoniallFive";
-
+import SectionTitleOne from "../../components/Sections/SectionTitle/SectionTitleOne";
+import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
+import introductionEightData from "../../data/introduction/introductionEight.json";
 
 
 
@@ -28,13 +30,20 @@ export default function homepage1() {
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
       <IntroductionTwo data={introductionTwoData} />
+      <IntroductionEight data={introductionEightData} />
 
-      <div className="row" style={{marginBottom:"95px"}}>
+      <div className="row" style={{marginBottom:"95px", marginTop:"35px"}}>
         <div className="col-6">
+        <SectionTitleOne align="center" spaceBottom="1.875em">
+        <h6>Сарын онцлох бүтээгдэхүүн</h6>
+        </SectionTitleOne>
         <TestimonialFive data={testimonialFiveData} />
 
         </div>
         <div className="col-6">
+        <SectionTitleOne align="center" spaceBottom="1.875em">
+        <h6>Хямдралтай бүтээгдэхүүн</h6>
+        </SectionTitleOne>
         <TestimonialFour data={testimonialData} />     
 
           </div>
