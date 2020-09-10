@@ -65,7 +65,7 @@
             @include link(
               $color: setShadeColor(dark),
               $hvr-color: setShadeColor(dark),
-              $fsz: emCal(16, 15),
+              $fsz: emCal(18, 15),
               $lh: emCal(15, 100),
               $fw: 600
             );
