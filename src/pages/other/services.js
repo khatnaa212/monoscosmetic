@@ -15,16 +15,16 @@ import introductionSixData from "../../data/introduction/introductionSix.json";
 
 export default function services() {
   return (
-    <LayoutFour title="Компаний тухай">
-      <Breadcrumb title="Компаний тухай">
-        <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Компаний тухай" current />
+    <LayoutFour title="КОМПАНИЙ ТУХАЙ">
+      <Breadcrumb title="КОМПАНИЙ ТУХАЙ">
+        <BreadcrumbItem name="НҮҮР" />
+        <BreadcrumbItem name="КОМПАНИЙ ТУХАЙ" current />
       </Breadcrumb>
     <div className="row" style={{maxWidth:"1600px", margin:"0 auto", padding:"0px 25px", position:"relative"}}> 
 
       <div className="row">
             <div className="col-4 col-md-4">
-               <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>Мэндчилгээ<span style={{color:"pink"}}>.</span></h1>
+               <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>МЭНДЧИЛГЭЭ<span style={{color:"pink"}}>.</span></h1>
              
             </div>
         <div className="col-8 col-md-8" style={{left:"-130px"}}>
@@ -40,7 +40,7 @@ export default function services() {
 
       <div className="row">
           <div className="col-4 col-md-4">
-           <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>Танилцуулга<span style={{color:"pink"}}>.</span></h1>
+           <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>ТАНИЛЦУУЛГА<span style={{color:"pink"}}>.</span></h1>
           </div>
           <div className="col-8 col-md-8" style={{left:"-130px"}}>
           <TestimonialThree data={testimonialData} />
@@ -66,7 +66,7 @@ export default function services() {
 
       <div className="row" style={{marginTop:"25px"}}>
           <div className="col-4 col-md-4">
-           <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>Түүхэн замнал<span style={{color:"pink"}}>.</span></h1>
+           <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>ТҮҮХЭН ЗАМНАЛ<span style={{color:"pink"}}>.</span></h1>
           </div>
         <div className="col-8 col-md-8" style={{left:"-130px"}}>
             <img src="/assets/images/timeline/time line.jpg" alt="Logo" style={{display:"block", marginLeft:"auto", marginRight:'10px;', width:"92%", marginBottom:'50px', borderBottom:"1px solid gray"}} />

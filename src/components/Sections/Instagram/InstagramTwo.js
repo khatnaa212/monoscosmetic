@@ -47,7 +47,7 @@ export default function InstagramTwo() {
   return (
     <div className="instagram-two">
       <Slider {...settings}>
-        {Array.from(Array(6), (e, i) => {
+        {Array.from(Array(10), (e, i) => {
           return (
             <a
               key={i}

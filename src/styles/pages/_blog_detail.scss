@@ -1,7 +1,7 @@
 .post {
   margin-bottom: remCal(100);
   &__cover {
-    max-height: emCal(16, 600);
+    max-height: emCal(8, 600);
     overflow: hidden;
     &:hover {
       img {

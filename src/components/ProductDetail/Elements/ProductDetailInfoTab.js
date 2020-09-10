@@ -10,8 +10,6 @@ export default function ProductDetailInfoTab({ onReviewSubmit , data}) {
       <Tabs className="product-detail__tab__content">
         <TabList className="tab__content__header">
           <Tab>Тайлбар</Tab>
-          <Tab>Shipping & Returns</Tab>
-          <Tab>Reviews ( 03 )</Tab>
         </TabList>
 
         <TabPanel className="tab__content__item -description">

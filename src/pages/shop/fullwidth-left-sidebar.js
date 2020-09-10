@@ -31,10 +31,10 @@ export default function () {
     setCurrentData(sortedProduct);
   }, [offset, currentSort, filterData]);
   return (
-    <LayoutFour title="Бүтээгдэхүүн" container="wide">
-      <Breadcrumb title="Бүтээгдэхүүн">
-        <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Бүтээгдэхүүн" current />
+    <LayoutFour title="БҮТЭЭГДЭХҮҮН" container="wide">
+      <Breadcrumb title="БҮТЭЭГДЭХҮҮН">
+        <BreadcrumbItem name="НҮҮР" />
+        <BreadcrumbItem name="БҮТЭЭГДЭХҮҮН" current />
       </Breadcrumb>
       <div className="shop -five-col">
         <div className="container-full-half">

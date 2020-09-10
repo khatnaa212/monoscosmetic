@@ -26,10 +26,10 @@ export default function index() {
   }, [offset, search]);
 
   return (
-    <LayoutFour title="Мэдээ">
-      <Breadcrumb title="Мэдээ">
-        <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Мэдээ" current />
+    <LayoutFour title="МЭДЭЭ">
+      <Breadcrumb title="МЭДЭЭ">
+        <BreadcrumbItem name="НҮҮР" />
+        <BreadcrumbItem name="МЭДЭЭ" current />
       </Breadcrumb>
       <div className="blog">
         <div className="container">
