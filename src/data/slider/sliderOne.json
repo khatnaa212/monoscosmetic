@@ -40,5 +40,19 @@
       "subtitle": "slider-one-subtitle",
       "button": "slider-one-button"
     }
+  },
+  {
+    "title": { "main": "You feel good" },
+    "subTitle": "When you look good",
+    "image": "/assets/images/banner/aloe_cover.jpg",
+    "btn": {
+      "content": "Appointment",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
   }
 ]
