@@ -15,10 +15,10 @@ import introductionSixData from "../../data/introduction/introductionSix.json";
 
 export default function services() {
   return (
-    <LayoutFour title="Компаны тухай">
-      <Breadcrumb title="Компаны тухай">
+    <LayoutFour title="Компаний тухай">
+      <Breadcrumb title="Компаний тухай">
         <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Компаны тухай" current />
+        <BreadcrumbItem name="Компаний тухай" current />
       </Breadcrumb>
     <div className="row" style={{maxWidth:"1600px", margin:"0 auto", padding:"0px 25px", position:"relative"}}> 
 
