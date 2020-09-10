@@ -13,7 +13,7 @@ export default function MenuThree({ hide, container }) {
           <Link href="/homepages/homepage1">
             <a className="menu__wrapper__logo">
               <img
-                src={process.env.PUBLIC_URL + "/assets/images/logo-white.png"}
+                src={process.env.PUBLIC_URL + "/assets/images/4.png"}
                 alt="Logo"
               />
             </a>
