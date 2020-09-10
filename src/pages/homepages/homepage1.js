@@ -24,12 +24,20 @@ import introductionEightData from "../../data/introduction/introductionEight.jso
 
 
 
-export default function homepage1() {
+export default function homepage1(){
   return (
     <LayoutOne title="Монос Косметикс" data={sliderData} className="-style-1">
-      <SliderTwo data={sliderData} className="-style-1" showDots />
+      <SliderTwo  className="-style-1" data={sliderData} showArrows showDots />
+     
       <IntroductionOne data={introductionOneData} />
-      <IntroductionTwo data={introductionTwoData} />
+      <SectionTitleOne align="center" spaceBottom="1.875em">
+        <h6>РЕКЛАМ ҮЗЭХ</h6>
+        </SectionTitleOne>
+      <div className style={{marginBottom:"95px", marginTop:"35px"}}>
+        <div>
+           <IntroductionTwo data={introductionTwoData} />
+        </div>
+      </div>
       <IntroductionEight data={introductionEightData} />
 
       <div className="row" style={{marginBottom:"95px", marginTop:"35px"}}>

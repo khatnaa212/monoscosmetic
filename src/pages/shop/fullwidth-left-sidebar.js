@@ -32,7 +32,7 @@ export default function () {
   }, [offset, currentSort, filterData]);
   return (
     <LayoutFour title="Бүтээгдэхүүн" container="wide">
-      <Breadcrumb title="Бүтээгдэхнүүн">
+      <Breadcrumb title="Бүтээгдэхүүн">
         <BreadcrumbItem name="Нүүр" />
         <BreadcrumbItem name="Бүтээгдэхүүн" current />
       </Breadcrumb>

@@ -133,6 +133,7 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
             </div>
           ))}
         </Slider>
+      
       </div>
     </div>
   );
