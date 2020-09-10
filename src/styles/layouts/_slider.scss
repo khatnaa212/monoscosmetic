@@ -214,9 +214,8 @@
       height: emCal(30, 50);
       width: emCal(30, 50);
       line-height: emCal(30, 50);
-      background-color: #fff;
+      background-color: #fff0;
       z-index: 2;
-      border: 1px solid setShadeColor(light);
       color: setShadeColor(medium);
       &.slick-prev {
         left: emCal(30, 50);

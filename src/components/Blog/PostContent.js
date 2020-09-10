@@ -88,7 +88,7 @@ export default function PostContent({ data, children }) {
           {data.content}
         </p>
       </div>
-      <div className="post-content__footer">
+      {/* <div className="post-content__footer">
         <div className="post-content__footer__tags">
           <span>Tag:</span>
           {data.tags &&
@@ -100,35 +100,35 @@ export default function PostContent({ data, children }) {
           <span>Share:</span>
           <SocialIcons colored />
         </div>
-      </div>
+      </div> */}
       <div className="post-content__actions">
         <div className="post-content__actions__change">
           <Link href="#">
             <a className="change-post-btn -prev">
-              <i className="fas fa-angle-left"></i>Prev Posts
+              <i className="fas fa-angle-left"></i>ӨМНӨХ НИЙТЛЭЛ
             </a>
           </Link>
           <Link href="#">
             <a className="change-post-btn -next">
-              Next Posts
+              ДАРААГИЙН НИЙТЛЭЛ
               <i className="fas fa-angle-right"></i>
             </a>
           </Link>
         </div>
         <div className="post-content__actions__comment">
           <form onSubmit={handleSubmit(onSearchSubmit)}>
-            <h5>Leave a comment</h5>
+            <h5>СЭТГЭГДЭЛ ҮЛДЭЭХ</h5>
             <div className="row">
               <div className="col-12 col-md-4">
                 <div className="input-validator">
                   <input
                     type="text"
                     name="name"
-                    placeholder="Name"
+                    placeholder="НЭР"
                     ref={register({ required: true })}
                   />
                   {errors.name && (
-                    <span className="input-error">Pleave provide a name</span>
+                    <span className="input-error">Нэрээ бичнэ үү</span>
                   )}
                 </div>
               </div>
@@ -137,15 +137,15 @@ export default function PostContent({ data, children }) {
                   <input
                     type="text"
                     name="email"
-                    placeholder="Email"
+                    placeholder="EMAIL ХАЯГ"
                     ref={register({ required: true })}
                   />
                   {errors.email && (
-                    <span className="input-error">Pleave provide an email</span>
+                    <span className="input-error">Email хаягаа оруулна уу</span>
                   )}
                 </div>
               </div>
-              <div className="col-12 col-md-4">
+              {/* <div className="col-12 col-md-4">
                 <div className="input-validator">
                   <input
                     type="text"
@@ -159,24 +159,24 @@ export default function PostContent({ data, children }) {
                     </span>
                   )}
                 </div>
-              </div>
+              </div> */}
               <div className="col-12">
                 <div className="input-validator">
                   <textarea
                     name="comment"
-                    placeholder="Comment"
+                    placeholder="СЭТГЭГДЭЛ"
                     rows="5"
                     ref={register({ required: true })}
                   />
                   {errors.comment && (
                     <span className="input-error">
-                      Pleave leave us a comment
+                      Сэтгэгдэлээ бичнэ үү
                     </span>
                   )}
                 </div>
               </div>
             </div>
-            <button className="btn -red">Submit comment</button>
+            <button className="btn -red">Илгээх</button>
           </form>
         </div>
       </div>

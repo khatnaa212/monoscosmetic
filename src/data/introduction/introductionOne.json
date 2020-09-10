@@ -1,15 +1,11 @@
 {
   "subTitle": {
-    "main": "Бидний",
-    "span": "Тухай"
+    "main": "",
+    "span": ""
   },
   "title": {
-    "main": "When You Look Good",
-    "span": "You Feel Good"
+    "main": "Дэвшилтэт орц бүхий коллаген гиалуроны хүчил агуулсан Үрчлээний эсрэг Биоген брэнд",
+    "span": ""
   },
-  "description": "The top three occupations in the Beauty salons Industry Group are Hairdressers, hairstylists, & cosmetologists, Manicurists and pedicurists, Receptionists & information clerks, Supervisors of personal care and service workers, and Skincare specialists.",
-  "btn": {
-    "content": "Дарах",
-    "color": "white"
-  }
+  "description": "Биоген үрчлээний эсрэг брэнд бүтээгдэхүүний дэвшилтэт орц болох коллаген нь уургийн нэг төрөл учир арьсыг уургаар тэтгэж гүн чийгшүүлэн, коллагений нийлэгжилтийг дэмжсэнээр үрчлээ үүсэхээс хамгаалан арьсыг чангалж уян зөөлөн болгоно. Гиалуроны хүчил  нь арьсны үндсэн хэсэг болох эластинийг идэвхитэйгээр сайжруулан ус болон уургийг нөхөн сэргээн арьсны өнгийг сэргээн залуужуулан."
 }

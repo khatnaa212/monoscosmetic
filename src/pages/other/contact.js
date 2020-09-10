@@ -10,10 +10,10 @@ export default function () {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <LayoutFour title="Бидэнтэй холбогдох">
-      <Breadcrumb title="Бидэнтэй холбогдох">
-        <BreadcrumbItem name="Нүүр" />
-        <BreadcrumbItem name="Бидэнтэй холбогдох" current />
+    <LayoutFour title="БИДЭНТЭЙ ХОЛБОГДОХ">
+      <Breadcrumb title="БИДЭНТЭЙ ХОЛБОГДОХ">
+        <BreadcrumbItem name="НҮҮР" />
+        <BreadcrumbItem name="БИДЭНТЭЙ ХОЛБОГДОХ" current />
       </Breadcrumb>
       <div className="contact">
         <div className="container">
@@ -67,7 +67,7 @@ export default function () {
                       placeholder="Хүсэлт"
                     />
                   </div>
-                  <button className="btn -dark">Хүсэлт илгээх</button>
+                  <button className="btn -dark">ХҮСЭЛТ ИЛГЭЭХ</button>
                 </form>
               </div>
             </div>

@@ -23,11 +23,11 @@ export default function IntroductionOne({ data }) {
             <div className="introduction-one__image">
               <div className="introduction-one__image__detail">
                 <img
-                  src="/assets/images/product/biogen_hand11.png"
+                  src="/assets/images/introduction/IntroductionOne/alooe.png"
                   alt="background"
                 />
                 <img
-                  src="/assets/images/product/Biogen_cream11.png"
+                  src="/assets/images/introduction/IntroductionOne/aloe 5.png"
                   alt="background"
                 />
               </div>
@@ -68,11 +68,11 @@ export default function IntroductionOne({ data }) {
                 {data.title.span}
               </SectionTitleOne>
               <p>{data.description}</p>
-              <Button
+              {/* <Button
                 color={data.btn.color}
                 content={data.btn.content}
                 action="/shop/list-sidebar"
-              />
+              /> */}
             </div>
           </div>
         </div>
