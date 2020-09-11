@@ -12,7 +12,7 @@ export default function CTAOne() {
   return (
     <div
       className="cta -style-1"
-      style={{ backgroundImage: 'url("/assets/images/banner/banner1.jpg")' }}
+      style={{ backgroundImage: 'url("/assets/images/cta/CTAOne/weeboo.jpg")' }}
     >
       <div className="container">
         <div className="row">
