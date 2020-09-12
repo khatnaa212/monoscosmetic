@@ -1,17 +1,12 @@
 import Head from "next/head";
-import Link from "next/link";
+import Home from "./homepages/homepage1.js";
 
-export default function Home() {
+export default function index() {
   return (
-    <>
-      <Head>
-        <title>Index page</title>
-      </Head>
-      <div className="container">
-        <Link href="/homepages/homepage1">
-          <a>Go to homepage 1</a>
-        </Link>
+ 
+      <div>
+        <Home/>
       </div>
-    </>
+   
   );
 }
