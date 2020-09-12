@@ -33,7 +33,7 @@
         &:last-child {
           bottom: 0;
           right: 0;
-          max-width: 60%;
+          max-width: 50%;
         }
       }
     }
@@ -411,8 +411,8 @@
         }
       }
       &__image {
-        height: emCal(16, 150);
-        width: emCal(16, 150);
+        height: emCal(45, 150);
+        width: emCal(38, 150);
         margin: 0 auto;
         border-radius: 999px;
         overflow: hidden;

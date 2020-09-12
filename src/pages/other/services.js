@@ -69,7 +69,7 @@ export default function services() {
            <h1 style={{paddingLeft: "100px", borderBottom:"3px solid pink"}}>ТҮҮХЭН ЗАМНАЛ<span style={{color:"pink"}}>.</span></h1>
           </div>
         <div className="col-8 col-md-8" style={{left:"-130px"}}>
-            <img src="/assets/images/timeline/time line.jpg" alt="Logo" style={{display:"block", marginLeft:"auto", marginRight:'10px;', width:"92%", marginBottom:'50px', borderBottom:"1px solid gray"}} />
+            <img src="/assets/images/timeline/time line ok.jpg" alt="Logo" style={{display:"block", marginLeft:"auto", marginRight:'10px;', width:"92%", marginBottom:'50px', borderBottom:"1px solid gray"}} />
         </div>
       </div>
 

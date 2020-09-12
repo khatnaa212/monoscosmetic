@@ -95,7 +95,7 @@ export default function Navigator({ disableSubmenu, className, data }) {
             </Link>
             <ul className="dropdown-menu -wide">
               <ul className="dropdown-menu__col">
-                {item.subMenu.slice(0, 6).map((i, index) => (
+                {item.subMenu.slice(0, 8).map((i, index) => (
                   <li key={index}>
                     <Link href={process.env.PUBLIC_URL + i.to}>
                       <a>{i.title}</a>

@@ -10,7 +10,7 @@
     ]
   },
   { "title": "КОМПАНИЙ ТУХАЙ", "to": "/other/services"},
-  { "title": "МЭДЭЭ", "to": "/blog" },
+  { "title": "МЭДЭЭ", "to": "/#" },
   {
     "title": "БҮТЭЭГДЭХҮҮН",
     "to": "/shop/fullwidth-left-sidebar",
@@ -19,6 +19,8 @@
       { "title": "АРЬС АРЧИЛГАА", "to": "/shop/list-sidebar" },
       { "title": "ҮС АРЧИЛГАА", "to": "/shop/list-sidebar" },
       { "title": "БИЕ АРЧИЛГАА", "to": "/shop/list-sidebar" },
+      { "title": "ГАР АРЧИЛГАА", "to": "/shop/list-sidebar" },
+      { "title": "САНИТАС АРИУТГАГЧ", "to": "/shop/list-sidebar" },
       { "title": "ХҮҮХЭД", "to": "/shop/list-sidebar" },
       { "title": "МОЙЛ ОРГАНИК", "to": "/shop/list-sidebar" },
       { "title": "МОЙЛ СПА", "to": "/shop/list-sidebar" }

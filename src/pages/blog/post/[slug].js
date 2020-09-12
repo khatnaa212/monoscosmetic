@@ -23,7 +23,7 @@ export default function () {
               <div className="row no-gutters">
                 <div className="col-12 col-md-3">
                   <div className="post__sidebar">
-                    <BlogSidebar limit={5} popularPostData={data} />
+                    <BlogSidebar limit={3} popularPostData={data} />
                   </div>
                 </div>
                 <div className="col-12 col-md-9">

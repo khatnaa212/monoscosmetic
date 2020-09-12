@@ -43,10 +43,10 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
         <h2>{data.name}</h2>
         <div className="product-detail__content__header__comment-block">
           <Rate currentRate={data.rate} />
-          <p>03 Reviews</p>
+          {/* <p>03 Reviews</p>
           <Link href={process.env.PUBLUC_URL + "#"}>
             <a>Write a reviews</a>
-          </Link>
+          </Link> */}
         </div>
         <h3>
           {data.discount

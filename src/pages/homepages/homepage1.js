@@ -17,8 +17,8 @@ import testimonialData from "../../data/testimonial/testimonialFour.json";
 import testimonialFiveData from "../../data/testimonial/testimonialFive.json";
 import TestimonialFive from "../../components/Sections/Testimonial/TestimoniallFive";
 import SectionTitleOne from "../../components/Sections/SectionTitle/SectionTitleOne";
-import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
-import introductionEightData from "../../data/introduction/introductionEight.json";
+// import IntroductionEight from "../../components/Sections/Introduction/IntroductionEight";
+// import introductionEightData from "../../data/introduction/introductionEight.json";
 
 
 
@@ -38,7 +38,7 @@ export default function homepage1(){
            <IntroductionTwo data={introductionTwoData} />
         </div>
       </div>
-      <IntroductionEight data={introductionEightData} />
+      {/* <IntroductionEight data={introductionEightData} /> */}
 
       <div className="row" style={{marginBottom:"95px", marginTop:"35px"}}>
         <div className="col-6">
