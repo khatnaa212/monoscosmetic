@@ -1,14 +1,12 @@
 {
   "accountLinks": [
-    { "name": "Миний хаяг", "to": "#" },
+    { "name": "Мэдээ", "to": "#" },
     { "name": "Хүслийн жагсаалт", "to": "/shop/wishlist" },
-    { "name": "Сагс", "to": "/shop/cart" },
-    { "name": "Дэлгүүр", "to": "/shop/fullwidth-4col" },
-    { "name": "Тооцоо хийх", "to": "/shop/checkout" }
+    { "name": "Дэлгүүр", "to": "/shop/fullwidth-left-sidebar" }
   ],
   "informationLinks": [
-    { "name": "Бидний тухай", "to": "/other/about" },
-    { "name": "Кареер", "to": "/other/contact" },
-    { "name": "Хүргэлтийн мэдээлэл", "to": "/other/contact" }
+    { "name": "Бидний тухай", "to": "/other/services" },
+    { "name": "Хүний нөөц", "to": "/other/humanresource" },
+    { "name": "Бидэнтэй холбогдох", "to": "/other/contact" }
   ]
 }

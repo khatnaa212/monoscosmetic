@@ -37,7 +37,7 @@ export default function FooterOne() {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4">
               <div className="footer__section -info">
-                <h5 className="footer-title">Бидний тухай</h5>
+                <h5 className="footer-title">Бидний Хаяг</h5>
                 <p>
                   Хаяг: <span>{footerInfomation.address}</span>
                 </p>
@@ -54,7 +54,7 @@ export default function FooterOne() {
               <div className="footer__section -links">
                 <div className="row">
                   <div className="col-12 col-sm-6">
-                    <h5 className="footer-title">Хаяг</h5>
+                    <h5 className="footer-title">Мэдээлэл</h5>
                     <ul>
                       {footerLinks.accountLinks.map((link, index) => (
                         <li key={index}>
@@ -66,7 +66,7 @@ export default function FooterOne() {
                     </ul>
                   </div>
                   <div className="col-12 col-sm-6">
-                    <h5 className="footer-title">Мэдээлэл</h5>
+                    <h5 className="footer-title">Бидний Тухай</h5>
                     <ul>
                       {footerLinks.informationLinks.map((link, index) => (
                         <li key={index}>
