@@ -94,17 +94,17 @@ export default function ServiceItem(props) {
               </p>
             </div>
             <div className="services__item__content">
-              <p className="services__item_description">
+              <p className="services__item__description">
               30 жилийн турш хамтдаа байгаа хэрэглэгчид та бүхэндээ чин сэтгэлийн талархал илэрхийлье.
               </p>
             </div>
             <div className="services__item__content"> 
-              <p className="services__item_description">
+              <p className="services__item__description">
               Хүндэтгэсэн
               </p>
             </div>
             <div className="services__item__content" style={{marginLeft:"75px"}}>
-              <p className="services__item_description" >
+              <p className="services__item__description" >
               Монос Kосметик ХХК-н Гүйцэтгэх захирал Э.Дагвабаасансүрэн​
               </p>
             </div>
