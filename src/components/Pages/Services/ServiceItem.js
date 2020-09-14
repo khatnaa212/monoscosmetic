@@ -103,7 +103,7 @@ export default function ServiceItem(props) {
               Хүндэтгэсэн
               </p>
             </div>
-            <div className="services__item__content" style={{marginLeft:"200px"}}>
+            <div className="services__item__content" style={{marginLeft:"75px"}}>
               <p className="services__item_description" >
               Монос Kосметик ХХК-н Гүйцэтгэх захирал Э.Дагвабаасансүрэн​
               </p>
